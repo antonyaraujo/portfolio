@@ -1,7 +1,9 @@
 .conteudo{
-    background-color: #ffe60946;
+    background-color: #b0f1f6a8;
 }
 
 .navbar{
     background-color: #b32e2e;
+    top:0;
+    position: sticky;
 }
