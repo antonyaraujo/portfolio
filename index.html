@@ -7,22 +7,24 @@
     <meta name="author" content="Anthony Stark">
 
     <title>Portfólio - Anthony Stark</title>
-
-
     <link href="estilos.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 
 <body class="conteudo">
 
     <!-- Cabeçalho da Página -->
     <header class="header">
-        <nav class="navbar">
-            <a href="#inicio" class="logo">
-                < /Tony Stark>
-            </a>
+        <nav class="navbar">                                            
+
+            <div class="logo_div">
+                <a href="#inicio" class="logo">
+                    Tony Stark
+                </a>                    
+            </div>
+
             <div class="menu">
-                <ul>
+                <ul>                    
                     <li style="display: inline;"><a href="#inicio">Início</a></li>
                     <li style="display: inline;"><a href="#habilidades">Habilidades</a></li>
                     <li style="display: inline;"><a href="#formacao">Formação</a></li>
@@ -30,56 +32,106 @@
                     <li style="display: inline;"><a href="#projetos">Projetos</a></li>
                     <li style="display: inline;"><a href="#contato">Contato</a></li>
                 </ul>
-            </div>
+            </div>        
         </nav>
     </header>
 
+    
+    <!-- Corpo do site/paginas -->
+    <div class="corpo">
+
+        <!-- Sobre/Início -->
+        <section class="inicio" id="inicio">
+            <div id="inicio-descrição">
+                <p style="font-size:28px; bottom: 1em;">Olá, eu sou</p>
+                    <h1 class="animacao">Tony Stark</h1>
+                <p style="width: 25em;">Sou graduado e mestrado em Física e Engenharia Elétrica pelo MIT. Nas horas vagas sou programador
+                    FullStack JavaScript, Python, Java e PHP. Entre em <a href="#contato">contato</a> se não quer
+                    desperdiçar
+                    mais tempo buscando pessoas desqualificadas.
+                </p>
+                <i style="color:white;" class="fa-solid fa-coffee-bean"></i>
+            </div>
+            <div id="inicio-foto"><img src="assets/imgs/Tony-Stark.png" alt="Tony Stark" id="tony"
+                    style="height: 85%; width: 100%; border-radius: 100px;">
+            </div>
+        </section>
 
 
-
-    <!-- Sobre/Início -->
-
-    <section class="inicio">
-        <div id="inicio-descrição">
-            <h1>Olá, eu sou o Anthony "Tony" Stark.</h1>
-            <p>Sou graduado e mestrado em Física e Engenharia Elétrica pelo MIT. Nas horas vagas sou programador
-                FullStack JavaScript, Python, Java e PHP. Entre em <a href="#contato">contato</a> se não quer
-                desperdiçar
-                mais tempo buscando pessoas desqualificadas.
-            </p>
+        <section>
+            <!-- Habilidades -->
+            <div class="habilidades">
+                <h1 id="habilidades">Habilidades</h1>
+                <div class="wrapper">
+                    <div class="celula">
+                        <i class="fa-brands fa-java"></i>
+                        <br>Java</div>
+                    <div class="celula"><br>Python</div>
+                    <div class="celula"><br>aravel</div>
+                    <div class="celula"><br>C#</div>
+                    <div class="celula"><br>Banco de Dados Relacional (MySQL)</div>
+                 </div>
+                
         </div>
-        <div id="inicio-foto"><img src="assets/imgs/Tony-Stark.png" alt="Tony Stark" id="tony"
-                style="height: 75%; border-radius: 100px;">
-        </div>
-    </section>
+        </section>    
 
+        <!-- Formação -->
+        <section>
+            <div>
+                <h1 id="formacao">Formação</h1>
+                <ol style="width: 40em;">
+                    <li>Graduação em física no Massachussets Institute of Technology (1990)</li>
+                    <br>
+                    <li>Mestrado em física aplicada no Massachussets Institute of Technology (1995)</li>
+                    <br>
+                    <li>Doutorado em física nucleo na Universidade de Yale (2000)</li>
+                </ol>
+            </div>            
+        </section>
 
+        <!-- Experiência -->
+        <section>
+            <div>
+                <h1 id="experiencia">Experiência</h1>
+                <ol style="width: 40em;">
+                    <li>30 anos trabalhando nas Indústrias Stark. CEO.</li>                    
+                </ol>
+            </div>            
+        </section>
 
+        <!-- Projetos -->
+        <section>
+            <div>
+                <h1 id="projetos">Projetos</h1>
+                <ol style="width: 40em;">
+                    <li>Homem de Ferro, versão 1</li>
+                    <br>
+                    <li>Homem de Ferro, versão 2</li>
+                    <br>
+                    <li>Homem de Ferro, versão 3</li>
+            </div>            
+        </section>
 
-    <!-- Habilidades -->
-    <div>
+        <!-- Contato -->
+        <section>
+            <div>
+                <h1 id="contato">Contato</h1>
+                <ol style="width: 40em;">
+                    <li>Graduação em física no Massachussets Institute of Technology (1990)</li>
+                    <br>
+                    <li>Mestrado em física aplicada no Massachussets Institute of Technology (1995)</li>
+                    <br>
+                    <li>Doutorado em física nucleo na Universidade de Yale (2000)</li>
+                </ol>
+            </div>            
+        </section>
 
     </div>
-
-    <!-- Formação -->
-    <div>
-
-    </div>
-
-    <!-- Projetos -->
-    <div>
-
-    </div>
-
-    <!-- Contato -->
-    <div>
-
-    </div>
-
     <!-- Rodapé da Página -->
     <footer>
-
+        Indústrias Stark. Perfil. 2022 (c).
     </footer>
+
 </body>
 
 </html>

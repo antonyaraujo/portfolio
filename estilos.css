@@ -1,16 +1,50 @@
 .conteudo{
-    background-color: #E9967A;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    color: white; 
+    background-color:#800B0B;
+    font-family: "Courier";
+    font-size: 72px;
+    width: 7em;
+}
+
+.animacao{    
+  color: white; 
+  background-color:#800B0B;
+  font-family: "Courier";
+  font-size: 72px;
+  margin: 10px 0 0 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 6em;
+  animation: type 4s steps(60, end);
+}
+
+h1:nth-child(2){
+    animation: type2 8s steps(60, end);
+  }
+
+.header{
+    width: 100%;
+    display: block;
+    position: fixed;   
+}
 
 .navbar{
     display: block;
-    background-color: #E9967A;
+    background-color: #800B0B;
     top:0;
+    left:0;    
     position: fixed;   
-    width: 100%;
-    box-shadow: 0px 0px 10px rgb(97, 92, 92);
+    width: 100%;        
 }               
+
+.navbar .menu{
+    position: relative;
+}
 
 .navbar .menu ul{       
     padding: 0;
@@ -32,16 +66,23 @@
     background-color: #DC143C;  
 }
 
+.logo_div{
+   position: absolute; 
+}
+
 .navbar .logo{
     float:left;
     color: #ffffff;
     font-size:32px;
     text-decoration: none;
-    margin-left: 70px;  /* Da para apontar a diferença de padding e margin */
-    margin-top: 20px;
+    margin-left: 70px;  /* Da para apontar a diferença de padding e margin */                    
+    
 }
 
-
+.corpo{
+    margin-left: 4em;
+    margin-right: 4em;
+}
 
 .inicio {
     margin-top: 50px;
@@ -51,18 +92,56 @@
 }
 
 #inicio-descrição{      
-    padding-top: 15%;
-    padding-left: 70px;
-    width: 600px; 
+    padding-top: 15%;      
 }
 
-.inicio h1{
-    font-size: 70px;
-}
+@keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  
+  @keyframes blink{
+    to{opacity: .0;}
+  }
 
 .inicio p{
     font-size: 24px;
     text-align: justify;
 }
 
+.habilidades{
+    color: white;    
+}
 
+.wrapper {
+    display: grid;
+    grid-column-gap: 3em;
+    grid-row-gap: 3em;
+    text-align: center;    
+    grid-template-columns: 1fr 1fr 1fr;    
+  }
+
+.wrapper .celula{
+    background-color:#800B0B;
+    height: 4em;
+    align-items: center;
+}
+
+footer{
+    background-color:#800B0B;
+    width: 100%;    
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    flex-shrink: 0;
+}
+
+li{
+    color: white;
+    background-color: #800B0B;
+}
