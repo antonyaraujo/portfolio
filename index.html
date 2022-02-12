@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Anthony Stark">
 
-    <title>Portfólio - Anthony Stark</title>
+    <title>Anthony Stark|Portfólio</title>
     <link href="estilos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/831be6027b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
         <nav class="navbar">
 
             <div class="logo_div">
-                <a href="#inicio" class="logo">
+                <a href="#inicio" class="logo" style="font-family: Stark;">
                     Tony Stark
                 </a>
             </div>
@@ -33,7 +33,6 @@
                 <ul>
                     <li style="display: inline;"><a href="#inicio">Início</a></li>
                     <li style="display: inline;"><a href="#habilidades">Habilidades</a></li>
-                    <li style="display: inline;"><a href="#formacao">Formação</a></li>
                     <li style="display: inline;"><a href="#experiencia">Experiência</a></li>
                     <li style="display: inline;"><a href="#projetos">Projetos</a></li>
                     <li style="display: inline;"><a href="#contato">Contato</a></li>
@@ -71,38 +70,50 @@
             <h1>Habilidades</h1>
             <p>As tecnologias que uso para trazer produtos a vida: </p>
             <div class="wrapper">
-                <div class="celula"><i class="fa-brands fa-java fa-7x"></i><br><br>Java</div><br>
-                <div class="celula"><i class="fa-brands fa-js fa-7x"></i><br><br>JavaScript</div><br>
-                <div class="celula"> <i class="fa-brands fa-python fa-7x"></i><br><br>Python</div><br>
-                <div class="celula"> <i class="fa-brands fa-php fa-7x"></i><br><br>PHP</div><br>
-                <div class="celula"> <i class="fa-brands fa-react fa-7x"></i><br><br>React</div><br>
+                <div class="celula"><i class="fa-brands fa-java fa-7x"></i><br><br>Java</div>
+                <div class="celula"><i class="fa-brands fa-js fa-7x"></i><br><br>JavaScript</div>
+                <div class="celula"> <i class="fa-brands fa-python fa-7x"></i><br><br>Python</div>
+                <div class="celula"> <i class="fa-brands fa-php fa-7x"></i><br><br>PHP</div>
+                <div class="celula"> <i class="fa-brands fa-react fa-7x"></i><br><br>React</div>
                 <div class="celula"> <i class="fa-brands fa-laravel fa-7x"></i><br><br>Laravel</div>
-            </div>
-
-        </section>
-
-        <!-- Formação -->
-        <section>
-            <div>
-                <h1 id="formacao">Formação</h1>
-                <ol style="width: 40em;">
-                    <li>Graduação em física no Massachussets Institute of Technology (1990)</li>
-                    <br>
-                    <li>Mestrado em física aplicada no Massachussets Institute of Technology (1995)</li>
-                    <br>
-                    <li>Doutorado em física nucleo na Universidade de Yale (2000)</li>
-                </ol>
+                <div class="celula"> <i class="fa-brands fa-html5 fa-7x"></i><br><br>HTML5</div>
+                <div class="celula"> <i class="fa-brands fa-css3 fa-7x"></i><br><br>CSS3</div>
+                <div class="celula"> <i class="fa-brands fa-git-alt fa-7x"></i><br><br>GIT</div>
             </div>
         </section>
+
 
         <!-- Experiência -->
-        <section>
-            <div>
-                <h1 id="experiencia">Experiência</h1>
-                <ol style="width: 40em;">
-                    <li>30 anos trabalhando nas Indústrias Stark. CEO.</li>
-                </ol>
+        <section class="experiencia" id="experiencia">
+            <h1>Experiência</h1>
+            <div class="wrapper">
+                <div class="card">
+                    <img src="assets/imgs/amazon.jpg" alt="Indústrias Stark" style="height:50%; width: 100%;">
+                    <div class="container">
+                        <h4>Amazon</h4>
+                        <p>Engenheiro Pleno Back-End</p>
+                        <p>2008-2012</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/imgs/microsoft.jpeg" alt="Microsoft" style="height:50%; width: 100%;">
+                    <div class="container">
+                        <h4>Microsoft</h4>
+                        <p>Engenheiro Senior FullStack</p>
+                        <p>2012-2019</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/imgs/stark-industries.jpg" alt="Indústrias Stark" style="height:50%; width: 100%;">
+                    <div class="container">
+                        <h4>Indústrias Stark</h4>
+                        <p><b>CEO</b></p>
+                        <p><b>Cargo atual</b></p>
+
+                    </div>
+                </div>
             </div>
+
         </section>
 
         <!-- Projetos -->

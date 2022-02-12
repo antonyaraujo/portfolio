@@ -47,7 +47,7 @@ h1:nth-child(2){
     top:0;
     left:0;    
     position: fixed;   
-    width: 100%;        
+    width: 100%;       
 }               
 
 .navbar .menu{
@@ -83,7 +83,7 @@ h1:nth-child(2){
     color: #ffffff;
     font-size:32px;
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 70px;  /* Da para apontar a diferença de padding e margin */                    
     
 }
@@ -99,7 +99,7 @@ section h1{
 }
 
 .inicio {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     margin-left: 4rem;
     margin-right: 4rem;
     display: grid;
@@ -145,7 +145,7 @@ section h1{
 }
 
 
-.wrapper {
+.habilidades .wrapper {
     display: grid;
     grid-column-gap: 3em;
     grid-row-gap: 3em;
@@ -153,11 +153,48 @@ section h1{
     grid-template-columns: 1fr 1fr 1fr;    
   }
 
-.wrapper .celula{
+.habilidade .wrapper .celula{
     background-color:#800B0B;
     height: 4em;
     align-items: center;
+    margin: 4em;
 }
+
+.experiencia{
+    color: #ffffff;
+}
+
+.experiencia .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.experiencia .card {
+    /* Sombras para o efeito de card */
+    box-shadow: 0 4px 8px 0 #800B0B;
+    transition: 0.3s;
+    background-color: #800B0B;
+    margin-left: 4rem;
+    margin-right: 4rem;;
+    height: 25rem;
+}
+
+
+/* Com o passar do mouse, cria-se uma sombra mais profunda */
+.experiencia .card:hover{
+    box-shadow: 0 8px 16px 0 #DC143C;
+    background-color: #DC143C;
+}
+
+
+.experiencia .container{
+    padding: 2px 16px;
+}
+
+
+
+
+
 
 
 footer{
