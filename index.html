@@ -8,23 +8,29 @@
 
     <title>Portfólio - Anthony Stark</title>
     <link href="estilos.css" rel="stylesheet">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://kit.fontawesome.com/831be6027b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap"
+        rel="stylesheet">>
+
+
 </head>
 
 <body class="conteudo">
 
     <!-- Cabeçalho da Página -->
     <header class="header">
-        <nav class="navbar">                                            
+        <nav class="navbar">
 
             <div class="logo_div">
                 <a href="#inicio" class="logo">
                     Tony Stark
-                </a>                    
+                </a>
             </div>
 
             <div class="menu">
-                <ul>                    
+                <ul>
                     <li style="display: inline;"><a href="#inicio">Início</a></li>
                     <li style="display: inline;"><a href="#habilidades">Habilidades</a></li>
                     <li style="display: inline;"><a href="#formacao">Formação</a></li>
@@ -32,20 +38,22 @@
                     <li style="display: inline;"><a href="#projetos">Projetos</a></li>
                     <li style="display: inline;"><a href="#contato">Contato</a></li>
                 </ul>
-            </div>        
+            </div>
         </nav>
     </header>
 
-    
+
     <!-- Corpo do site/paginas -->
     <div class="corpo">
 
         <!-- Sobre/Início -->
         <section class="inicio" id="inicio">
             <div id="inicio-descrição">
-                <p style="font-size:28px; bottom: 1em;">Olá, eu sou</p>
-                    <h1 class="animacao">Tony Stark</h1>
-                <p style="width: 25em;">Sou graduado e mestrado em Física e Engenharia Elétrica pelo MIT. Nas horas vagas sou programador
+                <p style="font-size:28px; bottom: 1em; padding: 0;">Olá, eu sou</p>
+                <h1 class="animacao">Tony Stark</h1>
+                <p style="width: 25em; padding: 0">Sou graduado e mestrado em Física e Engenharia Elétrica pelo MIT. Nas
+                    horas
+                    vagas sou programador
                     FullStack JavaScript, Python, Java e PHP. Entre em <a href="#contato">contato</a> se não quer
                     desperdiçar
                     mais tempo buscando pessoas desqualificadas.
@@ -53,27 +61,25 @@
                 <i style="color:white;" class="fa-solid fa-coffee-bean"></i>
             </div>
             <div id="inicio-foto"><img src="assets/imgs/Tony-Stark.png" alt="Tony Stark" id="tony"
-                    style="height: 85%; width: 100%; border-radius: 100px;">
+                    style="height:90%; width: 80%; margin-top: 10%; border-radius: 50% 50% 0% 0%;background-color: #800B0B; bottom: 0;">
             </div>
         </section>
 
 
-        <section>
-            <!-- Habilidades -->
-            <div class="habilidades">
-                <h1 id="habilidades">Habilidades</h1>
-                <div class="wrapper">
-                    <div class="celula">
-                        <i class="fa-brands fa-java"></i>
-                        <br>Java</div>
-                    <div class="celula"><br>Python</div>
-                    <div class="celula"><br>aravel</div>
-                    <div class="celula"><br>C#</div>
-                    <div class="celula"><br>Banco de Dados Relacional (MySQL)</div>
-                 </div>
-                
-        </div>
-        </section>    
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1>Habilidades</h1>
+            <p>As tecnologias que uso para trazer produtos a vida: </p>
+            <div class="wrapper">
+                <div class="celula"><i class="fa-brands fa-java fa-7x"></i><br><br>Java</div><br>
+                <div class="celula"><i class="fa-brands fa-js fa-7x"></i><br><br>JavaScript</div><br>
+                <div class="celula"> <i class="fa-brands fa-python fa-7x"></i><br><br>Python</div><br>
+                <div class="celula"> <i class="fa-brands fa-php fa-7x"></i><br><br>PHP</div><br>
+                <div class="celula"> <i class="fa-brands fa-react fa-7x"></i><br><br>React</div><br>
+                <div class="celula"> <i class="fa-brands fa-laravel fa-7x"></i><br><br>Laravel</div>
+            </div>
+
+        </section>
 
         <!-- Formação -->
         <section>
@@ -86,7 +92,7 @@
                     <br>
                     <li>Doutorado em física nucleo na Universidade de Yale (2000)</li>
                 </ol>
-            </div>            
+            </div>
         </section>
 
         <!-- Experiência -->
@@ -94,9 +100,9 @@
             <div>
                 <h1 id="experiencia">Experiência</h1>
                 <ol style="width: 40em;">
-                    <li>30 anos trabalhando nas Indústrias Stark. CEO.</li>                    
+                    <li>30 anos trabalhando nas Indústrias Stark. CEO.</li>
                 </ol>
-            </div>            
+            </div>
         </section>
 
         <!-- Projetos -->
@@ -109,7 +115,7 @@
                     <li>Homem de Ferro, versão 2</li>
                     <br>
                     <li>Homem de Ferro, versão 3</li>
-            </div>            
+            </div>
         </section>
 
         <!-- Contato -->
@@ -123,7 +129,7 @@
                     <br>
                     <li>Doutorado em física nucleo na Universidade de Yale (2000)</li>
                 </ol>
-            </div>            
+            </div>
         </section>
 
     </div>
