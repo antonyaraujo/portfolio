@@ -89,7 +89,9 @@ h1:nth-child(2){
 }
 
 section{
-    padding-top: 4rem;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+    color: #ffffff;
 }
 
 section h1{
@@ -102,9 +104,9 @@ section h1{
     /* margin-top: 4rem; */
     margin-left: 4rem;
     margin-right: 4rem;
+    margin-bottom: 0;
     display: grid;
     grid-template-areas: "inicio-descrição inicio-foto";
-    color: #ffffff;
 }
 
 #inicio-descrição{      
@@ -132,9 +134,8 @@ section h1{
 }
 
 .habilidades {
-    color: white; 
     background-color: #800B0B;  
-    padding-bottom: 15rem;
+    padding-bottom: 2rem;
 }
 
 .habilidades p{
@@ -190,6 +191,106 @@ section h1{
 .experiencia .container{
     padding: 2px 16px;
 }
+
+.projetos p,h2{
+    font-weight: 300;
+    
+}
+
+.projetos p{
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: left;
+}
+
+.projetos h2{
+    margin-left: 4rem;
+    font-size: 2rem;
+    color: #800B0B;
+
+}
+
+.projetos .descricao p{
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 70%;
+}
+
+.projetos .img-projeto img{
+    margin-top: 3.2rem;
+    margin-right: 5rem;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 #800B0B;
+    transition: 0.3s;
+}
+
+.projetos .img-projeto img:hover{
+    box-shadow: 0 8px 16px 0 #DC143C;
+
+}
+
+.projetos .wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.projetos .wrapper #projeto1{
+    display: grid;
+    grid-template-areas: 'descricao img-projeto';
+}
+
+.projetos .linguagens p{
+    font-size: small;
+}
+
+.btn{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    border: none;
+    cursor: pointer;
+    padding: 14px 28px;
+
+    font-family: "Zen Kaku Gothic Antique', sans-serif";
+    font-size: 1.5rem;
+    height: 3rem;
+    width: auto;
+}
+
+.acessar{
+    color: #ffffff;
+    background-color: #800B0B; 
+    transition: 0.3s;
+}
+
+.acessar:hover{
+    color: #ffffff;
+    background-color: #DC143C; 
+    transition: 0.3s;
+}
+
+.projeto{
+    margin-bottom: 8rem;
+}
+
+.img-projeto{grid-area: img-projeto;};
+.descricao{grid-area: descricao;}
+
+.projetos .wrapper #projeto2{
+    display: grid;
+    grid-template-areas: 'img-projeto descricao ';
+}
+
+#projeto2 img{
+    margin-left: 4rem;
+}
+
+#projeto2 .descricao{
+    margin-left: 6rem;
+   
+    
+}
+
 
 
 
