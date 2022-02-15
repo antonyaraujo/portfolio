@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Stark;
-    src: url('/assets/fonts/stark-font/Stark-6p31.ttf');
+    font-family: 'Stark';
+    src: url('assets/fonts/stark-font/StarkBold-y4zV.ttf');
 }
 
 html{scroll-behavior: smooth;}
@@ -18,7 +18,7 @@ html, .conteudo{
 
 h1{
     color: white; 
-    font-family: "Courier";
+    font-family: 'Bebas Neue', cursive;
     font-size: 72px;
     width: 7em;
 }
@@ -26,17 +26,17 @@ h1{
 .animacao{    
   color: white; 
   background-color:#800B0B;
-  font-family: "Stark";
+  font-family: 'Bebas Neue', cursive;
   font-size: 72px;
   margin: 10px 0 0 2px;
   white-space: nowrap;
   overflow: hidden;
   width: 5em;
-  animation: type 4s steps(60, end);
+  animation: type 2s steps(60, end);
 }
 
 h1:nth-child(2){
-    animation: type2 8s steps(60, end);
+    animation: type2 4s steps(60, end);
   }
 
 .header{
@@ -47,7 +47,7 @@ h1:nth-child(2){
 
 .navbar{
     display: block;
-    background-color: #800B0B;
+    background-color: #400000;
     top:0;
     left:0;    
     position: fixed;   
@@ -75,7 +75,7 @@ h1:nth-child(2){
 }
 
 .navbar .menu a:hover{
-    background-color: #DC143C;  
+    background-color: #7F0000;  
 }
 
 .logo_div{
@@ -98,10 +98,10 @@ section{
     color: #ffffff;
 }
 
-section h1{
-    margin-left: 4rem;
+section h1{    
     font-size: 3rem;
-    font-family: Stark;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.4rem;
 }
 
 .inicio {
@@ -111,6 +111,11 @@ section h1{
     margin-bottom: 0;
     display: grid;
     grid-template-areas: "inicio-descrição inicio-foto";
+}
+
+.container{
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 #inicio-descrição{      
@@ -131,22 +136,27 @@ section h1{
     to{opacity: .0;}
   }
 
+.celula i:hover{
+    color: #E50000;
+    transform: scale(1.25); 
+}
+
 .inicio p{
     /* 1.5rem =24px */
     font-size: 1.5rem;
     text-align: justify;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .habilidades {
-    background-color: #800B0B;  
+    background-color: #400000;  
     padding-bottom: 2rem;
 }
 
 .habilidades p{
     /* 1.5rem =24px */
     font-size: 1.5rem;
-    text-align: justify;
-    margin-left: 4rem;
+    text-align: justify;    
 }
 
 
@@ -175,14 +185,11 @@ section h1{
 }
 
 .experiencia .card {
-    /* Sombras para o efeito de card */
-    box-shadow: 0 4px 8px 0 #800B0B;
+    /* Sombras para o efeito de card */    
     transition: 0.3s;
-    background-color: #800B0B;
-    margin-left: 4rem;
-    margin-right: 4rem;;
+    background-color: #800B0B;    
     height: 25rem;
-    max-width: 400px;
+    max-width: 20rem;
 }
 
 
@@ -197,22 +204,25 @@ section h1{
     padding: 2px 16px;
 }
 
-.projetos p,h2{
-    font-weight: 300;
-    
+.projetos{
+    background-color:#400000;
 }
 
-.projetos p{
-    margin-left: 4rem;
+.projetos p,h2{
+    font-weight: 300;    
+}
+
+.projetos p{    
     font-size: 1.5rem;
     width: 50%;
     text-align: left;
 }
 
-.projetos h2{
-    margin-left: 4rem;
+.projetos h2{    
     font-size: 2rem;
-    color: #800B0B;
+    font-family: 'Bebas Neue', cursive;    
+    font-weight: bold;
+    color: white;
 
 }
 
@@ -228,8 +238,7 @@ section h1{
     max-width: 500px;
     height: auto;
 
-    margin-top: 4rem;
-    margin-right: 5rem;
+    margin-top: 4rem;    
     box-shadow: 0 4px 8px 0 #800B0B;
     transition: 0.3s;
 }
@@ -257,13 +266,14 @@ section h1{
 }
 
 .btn{
-    margin-top: 2rem;
-    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 28px;
+    padding-right: 28px;
     border: none;
     cursor: pointer;
-    padding: 14px 28px;
 
-    font-family: "Zen Kaku Gothic Antique', sans-serif";
+    font-family: 'Bebas Neue', coursive;
     font-size: 1.5rem;
     font-weight: bold;
     height: 3rem;
@@ -277,12 +287,12 @@ section h1{
 
 .acessar{
     color: #ffffff;
-    background-color: #800B0B; 
+    background-color: black; 
 }
 
 .acessar:hover{
-    color: #ffffff;
-    background-color: #DC143C; 
+    color: #E50000;
+    background-color: #7F0000; 
 }
 
 .projeto{
@@ -295,15 +305,10 @@ section h1{
 }
 
 #projeto2 .descricao{
-    width: 100%;
-    margin-left: 6rem;
-    
-    
+    width: 100%;  
+    margin-left: 16em;    
 }
 
-#projeto2 img{
-    margin-left: 4rem;
-}
 
 
 #projeto3{
@@ -312,8 +317,7 @@ section h1{
 }
 
 
-.contato{
-    background-color: #800B0B;
+.contato{    
     text-align: center;
     height: 100vh;
     /* max-height: 100vh; */
@@ -377,8 +381,7 @@ footer{
 }
 
 li{
-    color: white;
-    background-color: #800B0B;
+    color: white;    
 }
 
 
