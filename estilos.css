@@ -122,6 +122,15 @@ section h1{
     padding-top: 15%;      
 }
 
+#inicio-foto img{
+    height:90%; 
+    width: 80%; 
+    margin-top: 10%; 
+    border-radius: 50% 50% 0% 0%;
+    background-color: #800B0B; 
+    bottom: 0;
+}
+
 @keyframes type{ 
     from { width: 0; } 
   } 
@@ -175,9 +184,9 @@ section h1{
     margin: 4em;
 }
 
-.experiencia{
+/* .experiencia{
     color: #ffffff;
-}
+} */
 
 .experiencia .wrapper{
     display: grid;
@@ -185,35 +194,48 @@ section h1{
 }
 
 .experiencia .card {
-    /* Sombras para o efeito de card */    
+    /* Sombras para o efeito de card */   
+    box-shadow: 0 4px 8px 0 #808080; 
     transition: 0.3s;
-    background-color: #400000;    
+    background-color: #2F2F2E;    
     height: 25rem;
     max-width: 20rem;
-    border-width: medium;
-    border-style: solid;
+    border-width:1px;
+    border-style:solid;
 }
 
-.experiencia .card img{
-    filter: grayscale(1);
+#card_amazon:hover #img_amazon{
+    content: url(assets/imgs/amazon.jpg);
+    height: 50%;
+    width:100%;
+
 }
 
-.experiencia .card img:hover{
-    filter: grayscale(0);
+#card_microsoft:hover #img_microsoft{
+    content: url(assets/imgs/microsoft.jpeg);
+    height: 50%;
+    width:100%;
+
 }
 
+#card_stark:hover #img_stark{
+    content: url(assets/imgs/stark-industries.jpg);
+    height: 50%;
+    width:100%;
+
+}
 /* Com o passar do mouse, cria-se uma sombra mais profunda */
 .experiencia .card:hover{
     box-shadow: 0 8px 16px 0 #400000;
     background-color: #400000;
+    border-color:#E50000;
 }
 
 
-.experiencia .conteudo{
+.experiencia .card_conteudo{
     padding: 2px 4px;
     padding-left: 30px;
     padding-right: 10px;
-    background-color: #400000;
 }
 
 .projetos{
@@ -256,7 +278,7 @@ section h1{
 }
 
 .projetos .img-projeto img:hover{
-    box-shadow: 0 8px 16px 0 #DC143C;
+    box-shadow: 0 8px 16px 0 #E50000;
 
 }
 
@@ -268,13 +290,9 @@ section h1{
 .img-projeto{grid-area: img-projeto;};
 .descricao{grid-area: descricao;}
 
-#projeto1{
+#projeto1, #projeto2 , #projeto3{
     display: grid;
     grid-template-areas: 'descricao img-projeto';
-}
-
-.projetos .linguagens p{
-    font-size: small;
 }
 
 .btn{
@@ -311,7 +329,7 @@ section h1{
     margin-bottom: 5rem;
 }
 
-#projeto2{
+/* #projeto2{
     display: grid;
     grid-template-areas: 'img-projeto descricao ';
 }
@@ -319,21 +337,11 @@ section h1{
 #projeto2 .descricao{
     width: 100%;  
     margin-left: 16em;    
-}
-
-
-
-#projeto3{
-    display: grid;
-    grid-template-areas: 'descricao img-projeto';
-}
-
+} */
 
 .contato{    
     text-align: center;
-    height: 100vh;
-    /* max-height: 100vh; */
-    
+    height: 100vh;     
     padding-top: 10rem;
 }
 
