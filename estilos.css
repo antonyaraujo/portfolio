@@ -25,7 +25,7 @@ h1{
 
 .animacao{    
   color: white; 
-  background-color:#800B0B;
+  background-color:#400000;
   font-family: 'Bebas Neue', cursive;
   font-size: 72px;
   margin: 10px 0 0 2px;
@@ -187,21 +187,33 @@ section h1{
 .experiencia .card {
     /* Sombras para o efeito de card */    
     transition: 0.3s;
-    background-color: #800B0B;    
+    background-color: #400000;    
     height: 25rem;
     max-width: 20rem;
+    border-width: medium;
+    border-style: solid;
 }
 
+.experiencia .card img{
+    filter: grayscale(1);
+}
+
+.experiencia .card img:hover{
+    filter: grayscale(0);
+}
 
 /* Com o passar do mouse, cria-se uma sombra mais profunda */
 .experiencia .card:hover{
-    box-shadow: 0 8px 16px 0 #DC143C;
-    background-color: #DC143C;
+    box-shadow: 0 8px 16px 0 #400000;
+    background-color: #400000;
 }
 
 
-.experiencia .container{
-    padding: 2px 16px;
+.experiencia .conteudo{
+    padding: 2px 4px;
+    padding-left: 30px;
+    padding-right: 10px;
+    background-color: #400000;
 }
 
 .projetos{
