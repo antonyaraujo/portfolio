@@ -199,11 +199,13 @@ section h1{
     /* Sombras para o efeito de card */   
     box-shadow: 0 4px 8px 0 #808080; 
     transition: 0.3s;
-    background-color: #2F2F2E;    
+    background-color: #808080;    
+    color: #000;
     height: 25rem;
     max-width: 20rem;
     border-width:1px;
     border-style:solid;
+    border-color: #ffffff;
 }
 
 #card_amazon:hover #img_amazon{
@@ -231,6 +233,7 @@ section h1{
     box-shadow: 0 8px 16px 0 #400000;
     background-color: #400000;
     border-color:#E50000;
+    color: #ffffff;
 }
 
 
@@ -356,7 +359,7 @@ section h1{
 .contato p{
    font-size: 1.2rem;
    margin-left: 25rem;
-   margin-right: 25rem;
+   margin-right: 25rem; 
 }
 
 
