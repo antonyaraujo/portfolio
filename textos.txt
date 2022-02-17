@@ -1,0 +1,104 @@
+ <!-- Início -->
+#inicio-descrição
+Sou graduado e mestrado em Física e Engenharia Elétrica pelo MIT. Nas horas
+vagas sou programador  FullStack JavaScript, Python, Java e PHP. 
+Entre em contato se não quer desperdiçar mais tempo buscando pessoas desqualificadas.
+
+
+<!-- Habilidades -->
+.wrapper
+fa-brands fa-java fa-7x
+fa-brands fa-js fa-7x
+fa-brands fa-python fa-7x
+fa-brands fa-php fa-7x
+fa-brands fa-react fa-7x
+fa-brands fa-laravel fa-7x
+fa-brands fa-html5 fa-7x
+fa-brands fa-css3 fa-7x
+fa-brands fa-git-alt fa-7x
+
+ <!-- Experiência -->
+
+<!-- Projetos -->
+p
+Grande parte dos meus projetos são web serviceCaptura de tela de 2022-02-17 15-23-28s Java, mas também tenho projetos frontend em React,
+Laravel e Python.
+Aqui está uma seleção de trabalhos que eu produzi
+
+#projeto1
+
+.descricao p
+Disney+ é um serviço de streaming over-the-top de vídeo sob demanda por assinatura de propriedade e 
+operado pela divisão Media and Entertainment Distribution da The Walt Disney Company.
+
+.linguagens
+fa-brands fa-php fa-2x
+fa-brands fa-laravel fa-2x
+fa-brands fa-html5 fa-2x
+fa-brands fa-css3 fa-2x
+
+a
+https://www.disneyplus.com/pt-br
+
+#projeto2
+
+.descricao p
+Xbox Game Pass é um serviço de assinatura de jogos eletrônicos da Xbox Gaming and Entertainment, 
+conglomerado da Microsoft, para uso com seu console Xbox One, Xbox Series X/S e Windows 10.
+
+.linguagens
+fa-brands fa-js fa-2x
+fa-brands fa-react fa-2x
+fa-brands fa-html5 fa-2x
+fa-brands fa-css3 fa-2x
+
+a
+https://www.xbox.com/pt-BR/xbox-game-pass"
+
+#projeto3
+
+.descricao p
+Spotify é um serviço de streaming de música, podcast e vídeo que foi lançado oficialmente em
+7 de outubro de 2008. É o serviço de streaming de música mais popular e usado do mundo.
+Ele é desenvolvido pela startup Spotify AB em Estocolmo, Suécia.
+
+.linguagens
+fa-brands fa-js fa-2x
+fa-brands fa-react fa-2x
+fa-brands fa-html5 fa-2x
+fa-brands fa-css3 fa-2x
+
+
+a
+https://www.spotify.com
+
+<!-- Contato -->
+
+p
+Minha caixa de entrada está sempre aberta, não importa se estou procurando novas oportunidades ou não, se
+você tiver alguma dúvida, quiser conversar ou simplesmente dizer olá, farei o possível para responder o
+mais rápido possível.
+
+.social 
+
+a href
+https://facebook.com/tonystark
+fa-brands fa-facebook fa-3x"
+
+https://twitter.com/tonystark
+fa-brands fa-twitter fa-3x
+
+https://instagram.com/tonystark
+fa-brands fa-instagram fa-3x
+
+https://linkedin.com/tonystark
+fa-brands fa-linkedin fa-3x
+
+https://github.com/tonystark
+fa-brands fa-github fa-3x
+
+
+
+
+
+
