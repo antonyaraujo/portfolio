@@ -1,14 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- !DOCTYPE informa ao navegador a versão do HTML -->
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
+
+    <meta charset="utf-8"> <!-- Garante a compatibilidade do código com os caracteres de padrão latino americano; -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Anthony Stark">
 
     <title>Anthony Stark|Portfólio</title>
+
+    <!-- Link com arquivo CSS -->
     <link href="estilos.css" rel="stylesheet">
+
+    <!-- Importação dos ícones do FontAwesome -->
     <script src="https://kit.fontawesome.com/831be6027b.js" crossorigin="anonymous"></script>
+
+    <!-- Importação de fontes do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap"
@@ -23,7 +30,6 @@
     <!-- Cabeçalho da Página -->
     <header class="header">
         <nav class="navbar">
-
             <div class="logo_div">
                 <a href="#inicio" class="logo" style="font-family: Stark;">
                     Tony Stark
@@ -67,55 +73,50 @@
 
         <!-- Habilidades -->
         <section class="habilidades" id="habilidades">
-            <div class="container">
-                <h1>Habilidades</h1>
-                <p>As tecnologias que uso para trazer produtos a vida: </p>
-                <div class="wrapper">
-                    <div class="celula"><i class="fa-brands fa-java fa-7x"></i><br><br>Java</div>
-                    <div class="celula"><i class="fa-brands fa-js fa-7x"></i><br><br>JavaScript</div>
-                    <div class="celula"> <i class="fa-brands fa-python fa-7x"></i><br><br>Python</div>
-                    <div class="celula"> <i class="fa-brands fa-php fa-7x"></i><br><br>PHP</div>
-                    <div class="celula"> <i class="fa-brands fa-react fa-7x"></i><br><br>React</div>
-                    <div class="celula"> <i class="fa-brands fa-laravel fa-7x"></i><br><br>Laravel</div>
-                    <div class="celula"> <i class="fa-brands fa-html5 fa-7x"></i><br><br>HTML5</div>
-                    <div class="celula"> <i class="fa-brands fa-css3 fa-7x"></i><br><br>CSS3</div>
-                    <div class="celula"> <i class="fa-brands fa-git-alt fa-7x"></i><br><br>GIT</div>
-                </div>
+            <h1>Habilidades</h1>
+            <p>As tecnologias que uso para trazer produtos a vida: </p>
+            <div class="wrapper">
+                <div class="celula"><i class="fa-brands fa-java fa-7x"></i><br><br>Java</div>
+                <div class="celula"><i class="fa-brands fa-js fa-7x"></i><br><br>JavaScript</div>
+                <div class="celula"> <i class="fa-brands fa-python fa-7x"></i><br><br>Python</div>
+                <div class="celula"> <i class="fa-brands fa-php fa-7x"></i><br><br>PHP</div>
+                <div class="celula"> <i class="fa-brands fa-react fa-7x"></i><br><br>React</div>
+                <div class="celula"> <i class="fa-brands fa-laravel fa-7x"></i><br><br>Laravel</div>
+                <div class="celula"> <i class="fa-brands fa-html5 fa-7x"></i><br><br>HTML5</div>
+                <div class="celula"> <i class="fa-brands fa-css3 fa-7x"></i><br><br>CSS3</div>
+                <div class="celula"> <i class="fa-brands fa-git-alt fa-7x"></i><br><br>GIT</div>
             </div>
         </section>
 
 
         <!-- Experiência -->
         <section class="experiencia" id="experiencia">
-            <div class="container">
-                <h1>Experiência</h1>
-                <div class="wrapper">
-                    <div class="card" id="card_amazon">
-                        <img src="assets/imgs/amazonBW.jpg" alt="Amazon" id="img_amazon"
-                            style="height:50%; width: 100%;">
-                        <div class="card_conteudo">
-                            <h4>Amazon</h4>
-                            <p>Engenheiro Pleno Back-End</p>
-                            <p>2008-2012</p>
-                        </div>
+            <h1>Experiência</h1>
+            <div class="wrapper">
+                <div class="card" id="card_amazon">
+                    <img src="assets/imgs/amazonBW.jpg" alt="Amazon" id="img_amazon" style="height:50%; width: 100%;">
+                    <div class="card_conteudo">
+                        <h4>Amazon</h4>
+                        <p>Engenheiro Pleno Back-End</p>
+                        <p>2008-2012</p>
                     </div>
-                    <div class="card" id="card_microsoft">
-                        <img src="assets/imgs/microsoftBW.png" alt="Microsoft" id="img_microsoft"
-                            style="height:50%; width: 100%;">
-                        <div class="card_conteudo">
-                            <h4>Microsoft</h4>
-                            <p>Engenheiro Senior FullStack</p>
-                            <p>2012-2019</p>
-                        </div>
+                </div>
+                <div class="card" id="card_microsoft">
+                    <img src="assets/imgs/microsoftBW.png" alt="Microsoft" id="img_microsoft"
+                        style="height:50%; width: 100%;">
+                    <div class="card_conteudo">
+                        <h4>Microsoft</h4>
+                        <p>Engenheiro Senior FullStack</p>
+                        <p>2012-2019</p>
                     </div>
-                    <div class="card" id="card_stark">
-                        <img src="assets/imgs/stark-industriesBW.png" alt="Indústrias Stark" id="img_stark"
-                            style="height:50%; width: 100%;">
-                        <div class="card_conteudo">
-                            <h4>Indústrias Stark</h4>
-                            <p><b>CEO</b></p>
-                            <p><b>Cargo atual</b></p>
-                        </div>
+                </div>
+                <div class="card" id="card_stark">
+                    <img src="assets/imgs/stark-industriesBW.png" alt="Indústrias Stark" id="img_stark"
+                        style="height:50%; width: 100%;">
+                    <div class="card_conteudo">
+                        <h4>Indústrias Stark</h4>
+                        <p><b>CEO</b></p>
+                        <p><b>Cargo atual</b></p>
                     </div>
                 </div>
             </div>
@@ -123,91 +124,87 @@
 
         <!-- Projetos -->
         <section class="projetos" id="projetos">
-            <div class="container">
-                <h1>Projetos</h1>
-                <p>Grande parte dos meus projetos são web services Java, mas também tenho projetos frontend em React,
-                    Laravel
-                    e Python. <br>
-                    Aqui está uma seleção de trabalhos que eu produzi</p>
-                <br>
-                <div class="wrapper">
-                    <div class="projeto" id="projeto1">
-                        <div class="descricao">
-                            <h2>Disney +</h2>
-                            <p>
-                                Disney+ é um serviço de streaming over-the-top de vídeo sob demanda por assinatura de
-                                propriedade e operado pela divisão Media and Entertainment Distribution da The Walt
-                                Disney
-                                Company.
-                            </p>
-                            <div class="linguagens" style="width: 40%;">
-                                <i class="fa-brands fa-php fa-2x"></i>
-                                <i class="fa-brands fa-laravel fa-2x"></i>
-                                <i class="fa-brands fa-html5 fa-2x"></i>
-                                <i class="fa-brands fa-css3 fa-2x"></i>
-                            </div>
-
-                            <a href="https://www.disneyplus.com/pt-br" target="_blank">
-                                <button class="btn acessar">Acessar</button>
-                            </a>
+            <h1>Projetos</h1>
+            <p>Grande parte dos meus projetos são web services Java, mas também tenho projetos frontend em React,
+                Laravel
+                e Python. <br>
+                Aqui está uma seleção de trabalhos que eu produzi</p>
+            <br>
+            <div class="wrapper">
+                <div class="projeto" id="projeto1">
+                    <div class="descricao">
+                        <h2>Disney +</h2>
+                        <p>
+                            Disney+ é um serviço de streaming over-the-top de vídeo sob demanda por assinatura de
+                            propriedade e operado pela divisão Media and Entertainment Distribution da The Walt
+                            Disney
+                            Company.
+                        </p>
+                        <div class="linguagens" style="width: 40%;">
+                            <i class="fa-brands fa-php fa-2x"></i>
+                            <i class="fa-brands fa-laravel fa-2x"></i>
+                            <i class="fa-brands fa-html5 fa-2x"></i>
+                            <i class="fa-brands fa-css3 fa-2x"></i>
                         </div>
 
-                        <div class="img-projeto">
-                            <img src="assets/imgs/projeto1.png" alt="Disney+">
-                        </div>
-
+                        <a href="https://www.disneyplus.com/pt-br" target="_blank">
+                            <button class="btn acessar">Acessar</button>
+                        </a>
                     </div>
 
-                    <div class="projeto" id="projeto2">
-                        <div class="descricao">
-                            <h2>Xbox Game Pass</h2>
-                            <p>
-                                Xbox Game Pass é um serviço de assinatura de jogos eletrônicos da Xbox Gaming and
-                                Entertainment, conglomerado da Microsoft, para uso com seu console Xbox One, Xbox Series
-                                X/S
-                                e Windows 10.
-                            </p>
-                            <div class="linguagens" style="width: 40%;">
-                                <i class="fa-brands fa-js fa-2x"></i>
-                                <i class="fa-brands fa-react fa-2x"></i>
-                                <i class="fa-brands fa-html5 fa-2x"></i>
-                                <i class="fa-brands fa-css3 fa-2x"></i>
-                            </div>
-
-                            <a href="https://www.xbox.com/pt-BR/xbox-game-pass" target="_blank"><button
-                                    class="btn acessar">Acessar</button>
-                            </a>
-                        </div>
-
-                        <div class="img-projeto">
-                            <img src="assets/imgs/projeto2.png" alt="Disney+">
-                        </div>
+                    <div class="img-projeto">
+                        <img src="assets/imgs/projeto1.png" alt="Disney+">
                     </div>
 
-                    <div class="projeto" id="projeto3">
-                        <div class="descricao">
-                            <h2>Spotify</h2>
-                            <p>
-                                Spotify é um serviço de streaming de música, podcast e vídeo que foi lançado
-                                oficialmente em
-                                7 de outubro de 2008. É o serviço de streaming de música mais popular e usado do mundo.
-                                Ele
-                                é desenvolvido pela startup Spotify AB em Estocolmo, Suécia.
-                            </p>
-                            <div class="linguagens" style="width: 40%;">
-                                <i class="fa-brands fa-js fa-2x"></i>
-                                <i class="fa-brands fa-react fa-2x"></i>
-                                <i class="fa-brands fa-html5 fa-2x"></i>
-                                <i class="fa-brands fa-css3 fa-2x"></i>
-                            </div>
+                </div>
 
-                            <a href="https://www.spotify.com" target="_blank"><button
-                                    class="btn acessar">Acessar</button></a>
+                <div class="projeto" id="projeto2">
+                    <div class="descricao">
+                        <h2>Xbox Game Pass</h2>
+                        <p>
+                            Xbox Game Pass é um serviço de assinatura de jogos eletrônicos da Xbox Gaming and
+                            Entertainment, conglomerado da Microsoft, para uso com seu console Xbox One, Xbox Series
+                            X/S
+                            e Windows 10.
+                        </p>
+                        <div class="linguagens" style="width: 40%;">
+                            <i class="fa-brands fa-js fa-2x"></i>
+                            <i class="fa-brands fa-react fa-2x"></i>
+                            <i class="fa-brands fa-html5 fa-2x"></i>
+                            <i class="fa-brands fa-css3 fa-2x"></i>
                         </div>
 
-                        <div class="img-projeto">
-                            <img src="assets/imgs/projeto3.png" alt="Disney+">
+                        <a href="https://www.xbox.com/pt-BR/xbox-game-pass" target="_blank"><button
+                                class="btn acessar">Acessar</button>
+                        </a>
+                    </div>
+
+                    <div class="img-projeto">
+                        <img src="assets/imgs/projeto2.png" alt="Disney+">
+                    </div>
+                </div>
+
+                <div class="projeto" id="projeto3">
+                    <div class="descricao">
+                        <h2>Spotify</h2>
+                        <p>
+                            Spotify é um serviço de streaming de música, podcast e vídeo que foi lançado oficialmente em
+                            7 de outubro de 2008. É o serviço de streaming de música mais popular e usado do mundo.
+                            Ele é desenvolvido pela startup Spotify AB em Estocolmo, Suécia.
+                        </p>
+                        <div class="linguagens" style="width: 40%;">
+                            <i class="fa-brands fa-js fa-2x"></i>
+                            <i class="fa-brands fa-react fa-2x"></i>
+                            <i class="fa-brands fa-html5 fa-2x"></i>
+                            <i class="fa-brands fa-css3 fa-2x"></i>
                         </div>
+
+                        <a href="https://www.spotify.com" target="_blank"><button
+                                class="btn acessar">Acessar</button></a>
+                    </div>
+
+                    <div class="img-projeto">
+                        <img src="assets/imgs/projeto3.png" alt="Disney+">
                     </div>
                 </div>
             </div>

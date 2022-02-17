@@ -94,6 +94,8 @@ h1:nth-child(2){
 
 section{
     padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     margin-bottom: 4rem;
     color: #ffffff;
 }
@@ -113,10 +115,10 @@ section h1{
     grid-template-areas: "inicio-descrição inicio-foto";
 }
 
-.container{
+/* .container{
     margin-left: 4rem;
     margin-right: 4rem;
-}
+} */
 
 #inicio-descrição{      
     padding-top: 15%;      
@@ -341,7 +343,7 @@ section h1{
 
 .contato{    
     text-align: center;
-    height: 100vh;     
+    height: 100vh;   
     padding-top: 10rem;
 }
 
