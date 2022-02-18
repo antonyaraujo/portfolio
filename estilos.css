@@ -108,8 +108,8 @@ section h1{
 
 .inicio {
     /* margin-top: 4rem; */
-    margin-left: 4rem;
-    margin-right: 4rem;
+    /* margin-left: 4rem;
+    margin-right: 4rem; */
     margin-bottom: 0;
     display: grid;
     grid-template-areas: "inicio-descrição inicio-foto";
