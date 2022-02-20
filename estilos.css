@@ -1,12 +1,13 @@
+/** Importação de fonte */
 @font-face {
-    font-family: 'Stark';
-    src: url('assets/fonts/stark-font/StarkBold-y4zV.ttf');
+    font-family: 'Stark'; /** nome atribuido */
+    src: url('assets/fonts/stark-font/StarkBold-y4zV.ttf'); /* localizacao da fonte */
 }
 
-html{scroll-behavior: smooth;}
+html{scroll-behavior: smooth;} /** Define a forma como o rolamento da página deve se comportar */
 
 html, .conteudo{
-    overflow-x: hidden;
+    overflow-x: hidden; /** Esconde o conteudo que for maior que o tamanho da resolução horizontalmente */
 }
 
 .conteudo{
@@ -26,26 +27,26 @@ html, .conteudo{
 .navbar{
     display: block;
     background-color: #400000;
-    top:0;
-    left:0;    
+    top:0; /** Define que não há margem ou nenhuma distãncia na região superior */
+    left:0;  /** Define que não há margem ou nenhuma distãncia na região esquerda */
     position: fixed;   
     width: 100%;       
 }               
 
 .navbar .menu{
-    position: relative;
+    position: relative; /* O elemento é posicionado com o fluxo/dinâmica normal do documento */
 }
 
 .navbar .menu ul{       
-    padding: 0;
-    margin: 0;      
-    list-style: none;
-    float: right;
+    padding: 0; /** padding define uma distância entre o conteúdo [interno] de um elemento e suas bordas, nesse caso é 0 */
+    margin: 0;  /** define a área de margem [externa] nos quatro lados do elemento, nesse caso é 0 */
+    list-style: none; /** Define o marcador da lista (bolinha, ponto, quadrado, seta), nesse caso é nenhuma */
+    float: right; /** Define a disposição (flutuação) a direita */
 }
 
 .navbar .menu a {
     padding: 20px 20px; /* Vertical horizontal */ 
-	display: inline-block;
+	display: inline-block; /** O elemento será apresentado como se fosse a única caixa (box) da linha (row)**/
     
 	/* visual do link */
 	color: #ffffff;
@@ -57,16 +58,16 @@ html, .conteudo{
 }
 
 .logo_div{
-   position: absolute; 
+   position: absolute; /** A posição do elemento é tirada do fluxo normal da página e definido apenas a partir do elemento superior */
 }
 
 .navbar .logo{
     float:left;
     color: #ffffff;
-    font-size:32px;
+    font-size:32px; /** Define o tamanho da fonte/texto */
     text-decoration: none;
-    margin-top: 15px;
-    margin-left: 70px;  /* Da para apontar a diferença de padding e margin */                    
+    margin-top: 15px; /** Define a margem superior como sendo de 15 pixels */
+    margin-left: 70px; /** Define a margem a esquerda como sendo de 70 pixels */
     
 }
 
@@ -74,25 +75,12 @@ h1{
     color: white; 
     font-family: 'Bebas Neue', cursive;
     font-size: 72px;
+    /** em é uma medida relativa definida em relação ao seu elemento pai, 
+    entao sera 7 vezez em relacao ao elemento pai do H1 */
     width: 7em;
 }
 
-.animacao{    
-  color: white; 
-  background-color:#400000;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 72px;
-  margin: 10px 0 0 2px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 5em;
-  animation: type 2s steps(60, end);
-}
-
-h1:nth-child(2){
-    animation: type2 4s steps(60, end);
-  }
-
+/** Estilo da tag section **/
 
 section{
     padding-top: 2rem;
@@ -102,23 +90,25 @@ section{
     color: #ffffff;
 }
 
+/** Estilização da seção de Início */
+
 .inicio {
     /* margin-top: 4rem; */
     /* margin-left: 4rem;
     margin-right: 4rem; */
     margin-bottom: 0;
-    display: grid;
-    grid-template-areas: "inicio-descrição inicio-foto";
+    display: grid; /** Define que a disposição interna dos elementos desse estilo será como grid () **/
+    grid-template-areas: "inicio-descrição inicio-foto"; /** Define duas grids a partir dos seus nomes**/
 }
 
 #inicio-descrição{      
-    padding-top: 15%;      
+    padding-top: 15%; /** o padding superior terá o tamanho de 15% do tamanho elemento-pai de #inicio-descrição */
 }
 
 section h1{    
     font-size: 3rem;
     font-family: 'Bebas Neue', cursive;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.4rem; /** Define a distância entre as letras das palavras */
 }
 
 .inicio p{
@@ -133,32 +123,75 @@ section h1{
     margin-right: 4rem;
 } */
 
+/* Animacao */
+
 @keyframes type{ 
-    from { width: 0; } 
-  } 
+from { width: 0; } 
+} 
+
+/**
+Keyframe que define o movimento da animação
+**/
+@keyframes type2{
+0%{width: 0;}
+50%{width: 0;}
+100%{ width: 100; } 
+} 
   
-  @keyframes type2{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{ width: 100; } 
-  } 
-  
-  @keyframes blink{
-    to{opacity: .0;}
+@keyframes blink{
+to{opacity: .0;}
+}
+
+.animacao{    
+    color: white; 
+    background-color:#400000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    margin: 10px 0 0 2px;
+    white-space: nowrap; /** Reduz os espaços vazios, sem quebra de linha**/
+    overflow: hidden; /** Tudo que sobrecarregar/ultrapassar os limites deve ser escondido */
+    width: 5em;
+    animation: type 2s steps(60, end); /** Aplica a animação type por 2 segundos */
   }
+  
+h1:nth-child(2){ /** Aplica a animação aos 2 próximos elementos de título seguintes (com e sem animação) */
+    animation: type2 4s steps(60, end);
+}
 
 #inicio-foto img{
     height:90%; 
     width: 80%; 
     margin-top: 10%; 
-    border-radius: 50% 50% 0% 0%;
+    border-radius: 50% 50% 0% 0%; /** Define o radio da borda esquerda e superior como sendo 50% do tamanho do seu elemento pai */
     background-color: #800B0B; 
     bottom: 0;
 }
 
-.celula i:hover{
+@media (max-width: 1200px) {
+    #inicio-foto {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    #inicio-foto {
+        height: 650px;
+        width: 550px;
+    }
+}
+
+@media (min-width: 1920px) {
+    #inicio-foto {
+        height: 950px;
+        width: 850px;
+    }
+}
+
+/** Estilização da seção de habilidades **/
+
+.celula i:hover{ /** Estilo aplicado quando o mouse for passado sobre a tag i do elemento com 'celula' **/
     color: #E50000;
-    transform: scale(1.25); 
+    transform: scale(1.25); /** Os elementos tem seu tamanho (escala) aumentado em 25% **/
 }
 
 .habilidades {
@@ -169,16 +202,15 @@ section h1{
 .habilidades p{
     /* 1.5rem =24px */
     font-size: 1.5rem;
-    text-align: justify;    
+    text-align: justify; /** Alinha o texto de forma justificada */  
 }
-
 
 .habilidades .wrapper {
     display: grid;
-    grid-column-gap: 3em;
-    grid-row-gap: 3em;
+    grid-column-gap: 3em; /** Define a distância entre as colunas do grid como sendo de 3em */
+    grid-row-gap: 3em; /* Define a distãncia entre as linhas do grid como sendo de 3em */
     text-align: center;    
-    grid-template-columns: 1fr 1fr 1fr;    
+    grid-template-columns: 1fr 1fr 1fr; /** Define uma grid de 3 colunas separados pela distância de 1fr**/
   }
 
 .habilidade .wrapper .celula{
@@ -188,32 +220,32 @@ section h1{
     margin: 4em;
 }
 
-/* .experiencia{
-    color: #ffffff;
-} */
+/** Estilização da seção de experiência */
 
 .experiencia .wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; /** Define uma grid de 3 colunas separados pela distância de 1fr**/
 }
 
 .experiencia .card {
     /* Sombras para o efeito de card */   
-    box-shadow: 0 4px 8px 0 #808080; 
-    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 #808080;  /** Aplica sombra ao elemento como se fosse uma caixa/box */
+    transition: 0.3s; /** Aplica os efeitos no intervalo de 3 milésimos */
     background-color: #808080;    
     color: #000;
     height: 25rem;
-    max-width: 20rem;
-    border-width:1px;
-    border-style:solid;
-    border-color: #ffffff;
+    max-width: 20rem; /** Define o tamanho máximo possível do card como sendo de 20 em relação ao tamanho da página inteira */
+    border-width:1px; /** Define o tamanho da borda como sendo de 1 px **/
+    border-style:solid; /* Define a borda como sólida (uma cor) */
+    border-color: #ffffff; /** Define a cor da borda como sendo branco */
 }
 
+
+/** Aplica as seguintes propriedades ao passar o mouse por cima do elemento */
 #card_amazon:hover #img_amazon{
-    content: url(assets/imgs/amazon.jpg);
-    height: 50%;
-    width:100%;
+    content: url(assets/imgs/amazon.jpg); /** Imagem definida no caminho especificado */
+    height: 50%; /* Altura 50% em relação ao elemento-pai (metade) */
+    width:100%; /* Largura 100% em relação ao elemento-pai (o mesmo tamanho) */
 
 }
 
@@ -221,7 +253,6 @@ section h1{
     content: url(assets/imgs/microsoft.jpeg);
     height: 50%;
     width:100%;
-
 }
 
 #card_stark:hover #img_stark{
@@ -230,6 +261,7 @@ section h1{
     width:100%;
 
 }
+
 /* Com o passar do mouse, cria-se uma sombra mais profunda */
 .experiencia .card:hover{
     box-shadow: 0 8px 16px 0 #400000;
@@ -245,12 +277,14 @@ section h1{
     padding-right: 10px;
 }
 
+/** Estilização da seção de Projetos **/
+
 .projetos{
     background-color:#400000;
 }
 
 .projetos p,h2{
-    font-weight: 300;    
+    font-weight: 300; /** Define o tamanho/peso do negrito da fonte */
 }
 
 .projetos p{    
@@ -308,6 +342,8 @@ section h1{
     padding-left: 28px;
     padding-right: 28px;
     border: none;
+    /** Define que o cursor deve ser alteado para um ponteiro 
+    quando o mouse estiver posicionado no botao */
     cursor: pointer;
 
     font-family: 'Bebas Neue', coursive;
@@ -345,6 +381,9 @@ section h1{
     width: 100%;  
     margin-left: 16em;    
 } */
+
+
+/** Estilização da seção de contato **/
 
 .contato{    
     text-align: center;
@@ -395,7 +434,7 @@ section h1{
 }
 
 
-
+/** Estilização do rodape **/
 footer{
     background-color:#800B0B;
     color: #ffffff;
@@ -403,30 +442,9 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0; 
-    flex-shrink: 0;
+    flex-shrink: 0; /** Os itens flexs contidos no elemento não podem ser maiores que o fator determinado aqui */
 }
 
 li{
     color: white;    
-}
-
-
-@media (max-width: 1200px) {
-    #inicio-foto {
-        display: none;
-    }
-}
-
-@media (min-width: 1200px) {
-    #inicio-foto {
-        height: 650px;
-        width: 550px;
-    }
-}
-
-@media (min-width: 1920px) {
-    #inicio-foto {
-        height: 950px;
-        width: 850px;
-    }
 }
