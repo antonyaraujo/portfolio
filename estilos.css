@@ -1,9 +1,4 @@
 /** Importação de fonte */
-@font-face {
-    font-family: 'Stark'; /** nome atribuido */
-    src: url('assets/fonts/stark-font/StarkBold-y4zV.ttf'); /* localizacao da fonte */
-}
-
 html{scroll-behavior: smooth;} /** Define a forma como o rolamento da página deve se comportar */
 
 html, .conteudo{
