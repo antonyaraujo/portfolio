@@ -10,39 +10,17 @@ html, .conteudo{
 }
 
 .conteudo{
-    background-color: black;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    margin: 0;
-
+    background-color: black; /* Aplica a cor preta a o fundo */
+    font-family: 'Zen Kaku Gothic Antique', sans-serif; /* Aplica a família de fontes sans-serif ao texto */
+    margin: 0; /* Especifica 0 como margem de todas as direções */
 }
 
-h1{
-    color: white; 
-    font-family: 'Bebas Neue', cursive;
-    font-size: 72px;
-    width: 7em;
-}
-
-.animacao{    
-  color: white; 
-  background-color:#400000;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 72px;
-  margin: 10px 0 0 2px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 5em;
-  animation: type 2s steps(60, end);
-}
-
-h1:nth-child(2){
-    animation: type2 4s steps(60, end);
-  }
+/* Estilização do cabecalho */
 
 .header{
-    width: 100%;
-    display: block;
-    position: fixed;   
+    width: 100%; /* Especifica que todo o tamanho da página deve ser ocupada horizontalmente */
+    display: block; /* Gera uma caixa no local especificado como um elemento de bloco.*/
+    position: fixed; /* O elemento tem a posição fixada onde ele está inserido */
 }
 
 .navbar{
@@ -92,18 +70,36 @@ h1:nth-child(2){
     
 }
 
+h1{
+    color: white; 
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    width: 7em;
+}
+
+.animacao{    
+  color: white; 
+  background-color:#400000;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 72px;
+  margin: 10px 0 0 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 5em;
+  animation: type 2s steps(60, end);
+}
+
+h1:nth-child(2){
+    animation: type2 4s steps(60, end);
+  }
+
+
 section{
     padding-top: 2rem;
     padding-left: 4rem;
     padding-right: 4rem;
     margin-bottom: 4rem;
     color: #ffffff;
-}
-
-section h1{    
-    font-size: 3rem;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 0.4rem;
 }
 
 .inicio {
@@ -115,23 +111,27 @@ section h1{
     grid-template-areas: "inicio-descrição inicio-foto";
 }
 
-/* .container{
-    margin-left: 4rem;
-    margin-right: 4rem;
-} */
-
 #inicio-descrição{      
     padding-top: 15%;      
 }
 
-#inicio-foto img{
-    height:90%; 
-    width: 80%; 
-    margin-top: 10%; 
-    border-radius: 50% 50% 0% 0%;
-    background-color: #800B0B; 
-    bottom: 0;
+section h1{    
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.4rem;
 }
+
+.inicio p{
+    /* 1.5rem =24px */
+    font-size: 1.5rem;
+    text-align: justify;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* .container{
+    margin-left: 4rem;
+    margin-right: 4rem;
+} */
 
 @keyframes type{ 
     from { width: 0; } 
@@ -147,16 +147,18 @@ section h1{
     to{opacity: .0;}
   }
 
+#inicio-foto img{
+    height:90%; 
+    width: 80%; 
+    margin-top: 10%; 
+    border-radius: 50% 50% 0% 0%;
+    background-color: #800B0B; 
+    bottom: 0;
+}
+
 .celula i:hover{
     color: #E50000;
     transform: scale(1.25); 
-}
-
-.inicio p{
-    /* 1.5rem =24px */
-    font-size: 1.5rem;
-    text-align: justify;
-    font-family: 'Bebas Neue', cursive;
 }
 
 .habilidades {
@@ -346,8 +348,7 @@ section h1{
 
 .contato{    
     text-align: center;
-    height: 100vh;   
-    padding-top: 10rem;    
+    height: 100vh;       
 }
 
 .contato h1{
@@ -358,8 +359,8 @@ section h1{
 
 .contato p{
    font-size: 1.2rem;  
-   padding-left: 25rem;
-    padding-right: 25rem;  
+   padding-left: 20rem;
+    padding-right: 20rem;  
 }
 
 

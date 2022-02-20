@@ -2,15 +2,19 @@
 <html lang="pt-br">
 
 <head>
-
-    <meta charset="utf-8"> <!-- Garante a compatibilidade do código com os caracteres de padrão latino -->
+    <!-- Garante a compatibilidade do código com os caracteres de padrão latino -->
+    <meta charset="utf-8">
+    
     <!-- Prepara a página para diferentes resoluções [responsividade] -->
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1; width=device-width">
+
+    <!-- Indica o nome do autor da página-->
     <meta name="author" content="Anthony Stark">
 
+    <!-- Define o título da página -->
     <title>Anthony Stark|Portfólio</title>
 
-    <!-- Link com arquivo CSS -->
+    <!-- Link com arquivo CSS [importação] -->
     <link href="estilos.css" rel="stylesheet">
 
     <!-- Importação dos ícones do FontAwesome -->
@@ -26,20 +30,26 @@
 
 </head>
 
+<!-- Corpo da Página [O que realmente é visto]-->
 <body class="conteudo">
 
     <!-- Cabeçalho da Página -->
     <header class="header">
-        <nav class="navbar">
-            <div class="logo_div">
-                <a href="#inicio" class="logo" style="font-family: Stark;">
-                    Tony Stark
+        
+        <nav class="navbar"> <!-- A tag nav indica uma seção de navbar - ou seja, uma seção de uma página que aponta para outras páginas -->
+            <div class="logo_div"> <!-- div utilizada para conter a logotipo do portfólio -->
+                <a href="#inicio" class="logo" style="font-family: Stark;"> 
+                    Tony Stark <!-- A tag <a> é uma tag âncora que aponta, atraves de seus atributos, para algum local/endereco -->
                 </a>
             </div>
 
-            <div class="menu">
-                <ul>
-                    <li style="display: inline;"><a href="#inicio">Início</a></li>
+            <div class="menu"> <!-- div é um elemento de divisão da página, um container -->
+                <ul> <!-- a tag ul vem de unordered list ou lista desordenada e indica basicamente 
+                    que dentro dela haverá uma lista de itens que não são numerados ou identificados 
+                    sequencialmente de alguma forma-->
+                    <li style="display: inline;"><a href="#inicio">Início</a></li> 
+                    <!-- a tag li vem de list item e identifica um item que estará contido na lista -->
+                    <!-- a tag li é utilizada tanto em lista desordenadas (ul) quanto em listas ordenadas (ol) -->
                     <li style="display: inline;"><a href="#habilidades">Habilidades</a></li>
                     <li style="display: inline;"><a href="#experiencia">Experiência</a></li>
                     <li style="display: inline;"><a href="#projetos">Projetos</a></li>
@@ -51,12 +61,18 @@
 
 
     <!-- Corpo do site/paginas -->
+    <!-- a tag main representta a seção principal da página, -->
     <main class="corpo">
 
         <!-- Sobre/Início -->
-        <section class="inicio" id="inicio">
+        <section class="inicio" id="inicio"> <!-- section representa uma seção genérica contida em um documento HTML-->
             <div id="inicio-descrição">
-                <p style="font-size:28px; bottom: 1em; padding: 0;">Olá, eu sou</p>
+                <!-- a tag p é utilizada para indicar um parágrafo de texto (ou conteúdo) na página -->
+                <p style="font-size:28px; bottom: 1em; padding: 0;">Olá, eu sou</p>                
+
+                <!-- a tag h1 indica um título da página, com maior prioridade/tamanho -->
+                <!-- há também as tags h2, h3,h4 e h5 para títulos, quanto maior o valor menor a prioridade/tamanho do título -->
+
                 <h1 class="animacao">Tony Stark</h1>
                 <p style="width: 25em; padding: 0">Sou graduado e mestrado em Física e Engenharia Elétrica pelo MIT. Nas
                     horas
@@ -95,6 +111,9 @@
             <h1>Experiência</h1>
             <div class="wrapper">
                 <div class="card" id="card_amazon">
+                    <!-- Adiciona uma imagem -->
+                    <!-- o src especifica o caminho da imagem -->
+                    <!-- o alt especifica a descrição da imagem, normalmente aparece ao passar o mouse por cima  -->
                     <img src="assets/imgs/amazonBW.jpg" alt="Amazon" id="img_amazon" style="height:50%; width: 100%;">
                     <div class="card_conteudo">
                         <h4>Amazon</h4>
@@ -149,6 +168,7 @@
                         </div>
 
                         <a href="https://www.disneyplus.com/pt-br" target="_blank">
+                            <!-- Adiciona um botão a página com as propriedades especificadas-->
                             <button class="btn acessar">Acessar</button>
                         </a>
                     </div>
@@ -239,7 +259,7 @@
 
     </main>
     <!-- Rodapé da Página -->
-    <footer>
+    <footer> <!-- a tag footer indica o rodapé da página -->
         Indústrias Stark. Perfil. 2022 (c).
     </footer>
 
