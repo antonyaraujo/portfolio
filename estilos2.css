@@ -1,0 +1,132 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: black;
+    color: white;    
+    font-family: 'Bebas Neue', coursive;
+    margin: 0;
+}    
+
+header{
+    width: 100%;
+    display: block;        
+    background-color: yellow;
+    position: fixed;
+}
+
+.navbar{
+    display: block;
+    background-color: #400000;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar .logo{
+    float: left;
+    font-size: 32px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 70px;
+
+}
+
+.navbar .menu{
+    float: right;
+    padding:0;
+    margin: 0;        
+}
+
+.navbar .menu a{
+    display: inline-block;            
+    padding: 20px 20px;    
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    text-decoration: none;
+    color: white; 
+    font-weight: 500;
+}
+
+.navbar .menu a:hover{
+    background-color: #7F0000;
+}
+
+section{
+    padding-top: 2rem;
+    padding-left: 4rem;    
+    padding-right: 4em;
+    margin-bottom: 4rem;
+    color: white;
+}
+
+#inicio{
+    padding-top: 8%;
+}
+
+#inicio p{
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Bebas Neue', cursive;
+    margin-right: 8rem;
+}
+
+#inicio{
+    margin-bottom: 0;    
+}
+
+#inicio .descricao{
+    width: 55%;        
+    float: left;
+}
+
+#inicio .imagem{
+    width: 45%;
+    height: 100%;    
+    float: right;
+}
+
+#inicio .imagem img{
+    width: 500px;
+    height: 650px;
+    border-radius: 50% 50% 0% 0%;
+    background-color: #800B0B;
+    bottom: 0;
+}
+
+@keyframe type{
+    from{
+        width: 0;
+    }    
+}
+
+@keyframes type2{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 50;
+    }
+    100%{
+        width: 100;
+    }
+}
+
+#inicio h1{
+    color: white;
+    background-color: #400000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    margin: 10px 0 0 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 5em;
+    animation: type 2s steps(60, end);
+    letter-spacing: 0.4rem;
+    width: 5em;
+}
+
+#inicio h1:nth-child(2){
+    animation: type2 4s steps(60, end);
+}
