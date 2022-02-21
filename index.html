@@ -4,7 +4,7 @@
 <head>
     <!-- Garante a compatibilidade do código com os caracteres de padrão latino -->
     <meta charset="utf-8">
-    
+
     <!-- Prepara a página para diferentes resoluções [responsividade] -->
     <meta name="viewport" content="initial-scale=1; width=device-width">
 
@@ -31,23 +31,29 @@
 </head>
 
 <!-- Corpo da Página [O que realmente é visto]-->
+
 <body class="conteudo">
 
     <!-- Cabeçalho da Página -->
     <header>
-        
-        <nav class="navbar"> <!-- A tag nav indica uma seção de navbar - ou seja, uma seção de uma página que aponta para outras páginas -->
-            <div class="logo_div"> <!-- div utilizada para conter a logotipo do portfólio -->
-                <a href="#inicio" class="logo" style="font-family: Stark;"> 
-                    Tony Stark <!-- A tag <a> é uma tag âncora que aponta, atraves de seus atributos, para algum local/endereco -->
+
+        <nav class="navbar">
+            <!-- A tag nav indica uma seção de navbar - ou seja, uma seção de uma página que aponta para outras páginas -->
+            <div class="logo_div">
+                <!-- div utilizada para conter a logotipo do portfólio -->
+                <a href="#inicio" class="logo" style="font-family: Stark;">
+                    Tony Stark
+                    <!-- A tag <a> é uma tag âncora que aponta, atraves de seus atributos, para algum local/endereco -->
                 </a>
             </div>
 
-            <div class="menu"> <!-- div é um elemento de divisão da página, um container -->
-                <ul> <!-- a tag ul vem de unordered list ou lista desordenada e indica basicamente 
+            <div class="menu">
+                <!-- div é um elemento de divisão da página, um container -->
+                <ul>
+                    <!-- a tag ul vem de unordered list ou lista desordenada e indica basicamente 
                     que dentro dela haverá uma lista de itens que não são numerados ou identificados 
                     sequencialmente de alguma forma-->
-                    <li style="display: inline;"><a href="#inicio">Início</a></li> 
+                    <li style="display: inline;"><a href="#inicio">Início</a></li>
                     <!-- a tag li vem de list item e identifica um item que estará contido na lista -->
                     <!-- a tag li é utilizada tanto em lista desordenadas (ul) quanto em listas ordenadas (ol) -->
                     <li style="display: inline;"><a href="#habilidades">Habilidades</a></li>
@@ -65,23 +71,23 @@
     <main class="corpo">
 
         <!-- Sobre/Início -->
-        <section class="inicio" id="inicio"> <!-- section representa uma seção genérica contida em um documento HTML-->
+        <section class="inicio" id="inicio">
+            <!-- section representa uma seção genérica contida em um documento HTML-->
             <div id="inicio-descrição">
                 <!-- a tag p é utilizada para indicar um parágrafo de texto (ou conteúdo) na página -->
-                <p style="font-size:28px; bottom: 1em; padding: 0;">Olá, eu sou</p>                
+                <p>Olá, eu sou</p>
 
                 <!-- a tag h1 indica um título da página, com maior prioridade/tamanho -->
                 <!-- há também as tags h2, h3,h4 e h5 para títulos, quanto maior o valor menor a prioridade/tamanho do título -->
 
                 <h1 class="animacao">Tony Stark</h1>
-                <p style="width: 25em; padding: 0">Sou graduado e mestrado em Física e Engenharia Elétrica pelo MIT. Nas
+                <p>Sou graduado e mestrado em Física e Engenharia Elétrica pelo MIT. Nas
                     horas
                     vagas sou programador
                     FullStack JavaScript, Python, Java e PHP. Entre em contato se não quer
                     desperdiçar
                     mais tempo buscando pessoas desqualificadas.
                 </p>
-                <i style="color:white;" class="fa-solid fa-coffee-bean"></i>
             </div>
             <div id="inicio-foto"><img src="assets/imgs/Tony-Stark.png" alt="Tony Stark" style="">
             </div>
@@ -90,7 +96,7 @@
 
         <!-- Habilidades -->
         <section class="habilidades" id="habilidades">
-            <h1>Habilidades</h1>
+            <h2>Habilidades</h2>
             <p>As tecnologias que uso para trazer produtos a vida: </p>
             <div class="wrapper">
                 <!--  nessa seção foi utilizado icones do pacote font-awesome, por isso as classes especificadas aqui nao estao no documento estilos.css-->
@@ -109,13 +115,13 @@
 
         <!-- Experiência -->
         <section class="experiencia" id="experiencia">
-            <h1>Experiência</h1>
+            <h2>Experiência</h2>
             <div class="wrapper">
                 <div class="card" id="card_amazon">
                     <!-- Adiciona uma imagem -->
                     <!-- o src especifica o caminho da imagem -->
                     <!-- o alt especifica a descrição da imagem, normalmente aparece ao passar o mouse por cima  -->
-                    <img src="assets/imgs/amazonBW.jpg" alt="Amazon" id="img_amazon" style="height:50%; width: 100%;">
+                    <img src="assets/imgs/amazonBW.jpg" alt="Amazon" id="img_amazon">
                     <div class="card_conteudo">
                         <h4>Amazon</h4>
                         <p>Engenheiro Pleno Back-End</p>
@@ -123,8 +129,7 @@
                     </div>
                 </div>
                 <div class="card" id="card_microsoft">
-                    <img src="assets/imgs/microsoftBW.png" alt="Microsoft" id="img_microsoft"
-                        style="height:50%; width: 100%;">
+                    <img src="assets/imgs/microsoftBW.png" alt="Microsoft" id="img_microsoft">
                     <div class="card_conteudo">
                         <h4>Microsoft</h4>
                         <p>Engenheiro Senior FullStack</p>
@@ -132,8 +137,7 @@
                     </div>
                 </div>
                 <div class="card" id="card_stark">
-                    <img src="assets/imgs/stark-industriesBW.png" alt="Indústrias Stark" id="img_stark"
-                        style="height:50%; width: 100%;">
+                    <img src="assets/imgs/stark-industriesBW.png" alt="Indústrias Stark" id="img_stark">
                     <div class="card_conteudo">
                         <h4>Indústrias Stark</h4>
                         <p><b>CEO</b></p>
@@ -145,7 +149,7 @@
 
         <!-- Projetos -->
         <section class="projetos" id="projetos">
-            <h1>Projetos</h1>
+            <h2>Projetos</h2>
             <p>Grande parte dos meus projetos são web services Java, mas também tenho projetos frontend em React,
                 Laravel
                 e Python. <br>
@@ -154,7 +158,7 @@
             <div class="wrapper">
                 <div class="projeto" id="projeto1">
                     <div class="descricao">
-                        <h2>Disney +</h2>
+                        <h3>Disney +</h3>
                         <p>
                             Disney+ é um serviço de streaming over-the-top de vídeo sob demanda por assinatura de
                             propriedade e operado pela divisão Media and Entertainment Distribution da The Walt
@@ -182,7 +186,7 @@
 
                 <div class="projeto" id="projeto2">
                     <div class="descricao">
-                        <h2>Xbox Game Pass</h2>
+                        <h3>Xbox Game Pass</h3>
                         <p>
                             Xbox Game Pass é um serviço de assinatura de jogos eletrônicos da Xbox Gaming and
                             Entertainment, conglomerado da Microsoft, para uso com seu console Xbox One, Xbox Series
@@ -208,7 +212,7 @@
 
                 <div class="projeto" id="projeto3">
                     <div class="descricao">
-                        <h2>Spotify</h2>
+                        <h3>Spotify</h3>
                         <p>
                             Spotify é um serviço de streaming de música, podcast e vídeo que foi lançado oficialmente em
                             7 de outubro de 2008. É o serviço de streaming de música mais popular e usado do mundo.
@@ -234,7 +238,7 @@
 
         <!-- Contato -->
         <section class="contato" id="contato">
-            <h1>Entre em contato</h1>
+            <h2>Entre em contato</h2>
             <p>Minha caixa de entrada está sempre aberta, não importa se estou procurando novas oportunidades ou não, se
                 você tiver alguma dúvida, quiser conversar ou simplesmente dizer olá, farei o possível para responder o
                 mais rápido possível.</p>
@@ -262,7 +266,8 @@
 
     </main>
     <!-- Rodapé da Página -->
-    <footer> <!-- a tag footer indica o rodapé da página -->
+    <footer>
+        <!-- a tag footer indica o rodapé da página -->
         Indústrias Stark. Perfil. 2022 (c).
     </footer>
 
