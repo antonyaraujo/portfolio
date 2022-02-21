@@ -77,12 +77,12 @@ section{
 }
 
 #inicio .descricao{
-    width: 50%;        
+    width: 55%;        
     float: left;
 }
 
 #inicio .imagem{
-    width: 50%;
+    width: 45%;
     height: 100%;    
     float: right;
 }
