@@ -4,7 +4,7 @@
 #### Organização dos arquivos
 
 - Os códigos que estão sendo desenvilvidos durante a oficina estão no diretório raiz do repositório, são denonimados: index.html e estilos.css.
-- O código do projeto já criado anteriormente e com comentários elucidativos estão na pasta projeto_Base.
+- O código do projeto já criado anteriormente e com comentários explicativos estão na pasta [backup](https://github.com/antonyaraujo/portfolio/tree/main/backup).
 
 #### Informações adicionais
 - O vídeo do primeiro dia da oficina pode ser acessado clicando [aqui](https://drive.google.com/file/d/1XcnoRZza4ZNIPaHY3UceD0K_fxeIlmE1/view?usp=sharing).
