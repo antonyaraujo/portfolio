@@ -3,7 +3,7 @@
 
 #### Organização dos arquivos
 
-- Os códigos que estão sendo desenvilvidos durante a oficina estão no diretório [raiz](/) do repositório, são denonimados: index.html e estilos.css.
+- Os códigos que estão sendo desenvilvidos durante a oficina estão no diretório raiz do repositório, são denonimados: index.html e estilos.css.
 - O código do projeto já criado anteriormente e com comentários elucidativos estão na pasta projeto_Base.
 
 #### Informações adicionais
