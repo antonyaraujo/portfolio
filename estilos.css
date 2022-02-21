@@ -190,7 +190,7 @@ h1:nth-child(2){ /** Aplica a animação aos 2 próximos elementos de título se
 /** Estilização da seção de habilidades **/
 
 .celula i:hover{ /** Estilo aplicado quando o mouse for passado sobre a tag i do elemento com 'celula' **/
-    color: #E50000;
+    color: #a52424;
     transform: scale(1.25); /** Os elementos tem seu tamanho (escala) aumentado em 25% **/
 }
 
