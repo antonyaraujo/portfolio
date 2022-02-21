@@ -141,34 +141,13 @@ h1:nth-child(2){ /** Aplica a animação aos 2 próximos elementos de título se
 }
 
 #inicio-foto img{
-    height:90%; 
-    width: 80%; 
+    height: 550px;
+    width: 450px;
     margin-top: 10%; 
     border-radius: 50% 50% 0% 0%; /** Define o radio da borda esquerda e superior como sendo 50% do tamanho do seu elemento pai */
     background-color: #800B0B; 
     bottom: 0;
 }
-
-@media (max-width: 1200px) {
-    #inicio-foto {
-        display: none;
-    }
-}
-
-@media (min-width: 1200px) {
-    #inicio-foto {
-        height: 650px;
-        width: 550px;
-    }
-}
-
-@media (min-width: 1920px) {
-    #inicio-foto {
-        height: 950px;
-        width: 850px;
-    }
-}
-
 
 
 section h2{    
