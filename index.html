@@ -1,82 +1,276 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 
-<html lang="pt-BR">    
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Antony A">
-        <title>Antony Stark</title>
-        <link href="estilos.css" rel="stylesheet">
+<head>
+    <!-- Garante a compatibilidade do código com os caracteres de padrão latino -->
+    <meta charset="utf-8">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    </head>
+    <!-- Prepara a página para diferentes resoluções [responsividade] -->
+    <meta name="viewport" content="initial-scale=1; width=device-width">
 
-    <!-- Corpo da página [O que realmente é visto ]-->
-    <body>
-        <!-- Cabeçalho da página -->
-        <header>
-            <nav class="navbar">
-                <div class="logo">
+    <!-- Indica o nome do autor da página-->
+    <meta name="author" content="Anthony Stark">
+
+    <!-- Define o título da página -->
+    <title>Anthony Stark|Portfólio</title>
+
+    <!-- Link com arquivo CSS [importação] -->
+    <link href="estilos.css" rel="stylesheet">
+
+    <!-- Importação dos ícones do FontAwesome -->
+    <script src="https://kit.fontawesome.com/831be6027b.js" crossorigin="anonymous"></script>
+
+    <!-- Importação de fontes do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+</head>
+
+<!-- Corpo da Página [O que realmente é visto]-->
+
+<body class="conteudo">
+
+    <!-- Cabeçalho da Página -->
+    <header>
+
+        <nav class="navbar">
+            <!-- A tag nav indica uma seção de navbar - ou seja, uma seção de uma página que aponta para outras páginas -->
+            <div class="logo_div">
+                <!-- div utilizada para conter a logotipo do portfólio -->
+                <a href="#inicio" class="logo" style="font-family: Stark;">
                     Tony Stark
+                    <!-- A tag <a> é uma tag âncora que aponta, atraves de seus atributos, para algum local/endereco -->
+                </a>
+            </div>
+
+            <div class="menu">
+                <!-- div é um elemento de divisão da página, um container -->
+                <ul>
+                    <!-- a tag ul vem de unordered list ou lista desordenada e indica basicamente 
+                    que dentro dela haverá uma lista de itens que não são numerados ou identificados 
+                    sequencialmente de alguma forma-->
+                    <li style="display: inline;"><a href="#inicio">Início</a></li>
+                    <!-- a tag li vem de list item e identifica um item que estará contido na lista -->
+                    <!-- a tag li é utilizada tanto em lista desordenadas (ul) quanto em listas ordenadas (ol) -->
+                    <li style="display: inline;"><a href="#habilidades">Habilidades</a></li>
+                    <li style="display: inline;"><a href="#experiencia">Experiência</a></li>
+                    <li style="display: inline;"><a href="#projetos">Projetos</a></li>
+                    <li style="display: inline;"><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Corpo do site/paginas -->
+    <!-- a tag main representta a seção principal da página, -->
+    <main class="corpo">
+
+        <!-- Sobre/Início -->
+        <section class="inicio" id="inicio">
+            <!-- section representa uma seção genérica contida em um documento HTML-->
+            <div id="inicio-descrição">
+                <!-- a tag p é utilizada para indicar um parágrafo de texto (ou conteúdo) na página -->
+                <p>Olá, eu sou</p>
+
+                <!-- a tag h1 indica um título da página, com maior prioridade/tamanho -->
+                <!-- há também as tags h2, h3,h4 e h5 para títulos, quanto maior o valor menor a prioridade/tamanho do título -->
+
+                <h1 class="animacao">Tony Stark</h1>
+                <p>Sou graduado e mestrado em Física e Engenharia Elétrica pelo MIT. Nas
+                    horas
+                    vagas sou programador
+                    FullStack JavaScript, Python, Java e PHP. Entre em contato se não quer
+                    desperdiçar
+                    mais tempo buscando pessoas desqualificadas.
+                </p>
+            </div>
+            <div id="inicio-foto"><img src="assets/imgs/Tony-Stark.png" alt="Tony Stark" style="">
+            </div>
+        </section>
+
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h2>Habilidades</h2>
+            <p>As tecnologias que uso para trazer produtos a vida: </p>
+            <div class="wrapper">
+                <!--  nessa seção foi utilizado icones do pacote font-awesome, por isso as classes especificadas aqui nao estao no documento estilos.css-->
+                <div class="celula"><i class="fa-brands fa-java fa-7x"></i><br><br>Java</div>
+                <div class="celula"><i class="fa-brands fa-js fa-7x"></i><br><br>JavaScript</div>
+                <div class="celula"> <i class="fa-brands fa-python fa-7x"></i><br><br>Python</div>
+                <div class="celula"> <i class="fa-brands fa-php fa-7x"></i><br><br>PHP</div>
+                <div class="celula"> <i class="fa-brands fa-react fa-7x"></i><br><br>React</div>
+                <div class="celula"> <i class="fa-brands fa-laravel fa-7x"></i><br><br>Laravel</div>
+                <div class="celula"> <i class="fa-brands fa-html5 fa-7x"></i><br><br>HTML5</div>
+                <div class="celula"> <i class="fa-brands fa-css3 fa-7x"></i><br><br>CSS3</div>
+                <div class="celula"> <i class="fa-brands fa-git-alt fa-7x"></i><br><br>GIT</div>
+            </div>
+        </section>
+
+
+        <!-- Experiência -->
+        <section class="experiencia" id="experiencia">
+            <h2>Experiência</h2>
+            <div class="wrapper">
+                <div class="card" id="card_amazon">
+                    <!-- Adiciona uma imagem -->
+                    <!-- o src especifica o caminho da imagem -->
+                    <!-- o alt especifica a descrição da imagem, normalmente aparece ao passar o mouse por cima  -->
+                    <img src="assets/imgs/amazonBW.jpg" alt="Amazon" id="img_amazon">
+                    <div class="card_conteudo">
+                        <h4>Amazon</h4>
+                        <p>Engenheiro Pleno Back-End</p>
+                        <p>2008-2012</p>
+                    </div>
+                </div>
+                <div class="card" id="card_microsoft">
+                    <img src="assets/imgs/microsoftBW.png" alt="Microsoft" id="img_microsoft">
+                    <div class="card_conteudo">
+                        <h4>Microsoft</h4>
+                        <p>Engenheiro Senior FullStack</p>
+                        <p>2012-2019</p>
+                    </div>
+                </div>
+                <div class="card" id="card_stark">
+                    <img src="assets/imgs/stark-industriesBW.png" alt="Indústrias Stark" id="img_stark">
+                    <div class="card_conteudo">
+                        <h4>Indústrias Stark</h4>
+                        <p><b>CEO</b></p>
+                        <p><b>Cargo atual</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section class="projetos" id="projetos">
+            <h2>Projetos</h2>
+            <p>Grande parte dos meus projetos são web services Java, mas também tenho projetos frontend em React,
+                Laravel
+                e Python. <br>
+                Aqui está uma seleção de trabalhos que eu produzi</p>
+            <br>
+            <div class="wrapper">
+                <div class="projeto" id="projeto1">
+                    <div class="descricao">
+                        <h3>Disney +</h3>
+                        <p>
+                            Disney+ é um serviço de streaming over-the-top de vídeo sob demanda por assinatura de
+                            propriedade e operado pela divisão Media and Entertainment Distribution da The Walt
+                            Disney
+                            Company.
+                        </p>
+                        <div class="linguagens" style="width: 40%;">
+                            <i class="fa-brands fa-php fa-2x"></i>
+                            <i class="fa-brands fa-laravel fa-2x"></i>
+                            <i class="fa-brands fa-html5 fa-2x"></i>
+                            <i class="fa-brands fa-css3 fa-2x"></i>
+                        </div>
+
+                        <a href="https://www.disneyplus.com/pt-br" target="_blank">
+                            <!-- Adiciona um botão a página com as propriedades especificadas-->
+                            <button class="btn acessar">Acessar</button>
+                        </a>
+                    </div>
+
+                    <div class="img-projeto">
+                        <img src="assets/imgs/projeto1.png" alt="Disney+">
+                    </div>
+
                 </div>
 
-                <div class="menu">
-                    <a href="#inicio">Inicio</a>
-                    <a href="#habilidades">Habilidades</a>
-                    <a href="#experiencia">Experiência</a>
-                    <a href="#projetos">Projetos</a>
-                    <a href="#contato">Contato</a>
+                <div class="projeto" id="projeto2">
+                    <div class="descricao">
+                        <h3>Xbox Game Pass</h3>
+                        <p>
+                            Xbox Game Pass é um serviço de assinatura de jogos eletrônicos da Xbox Gaming and
+                            Entertainment, conglomerado da Microsoft, para uso com seu console Xbox One, Xbox Series
+                            X/S
+                            e Windows 10.
+                        </p>
+                        <div class="linguagens" style="width: 40%;">
+                            <i class="fa-brands fa-js fa-2x"></i>
+                            <i class="fa-brands fa-react fa-2x"></i>
+                            <i class="fa-brands fa-html5 fa-2x"></i>
+                            <i class="fa-brands fa-css3 fa-2x"></i>
+                        </div>
+
+                        <a href="https://www.xbox.com/pt-BR/xbox-game-pass" target="_blank"><button
+                                class="btn acessar">Acessar</button>
+                        </a>
+                    </div>
+
+                    <div class="img-projeto">
+                        <img src="assets/imgs/projeto2.png" alt="Disney+">
+                    </div>
                 </div>
-            </nav>
 
+                <div class="projeto" id="projeto3">
+                    <div class="descricao">
+                        <h3>Spotify</h3>
+                        <p>
+                            Spotify é um serviço de streaming de música, podcast e vídeo que foi lançado oficialmente em
+                            7 de outubro de 2008. É o serviço de streaming de música mais popular e usado do mundo.
+                            Ele é desenvolvido pela startup Spotify AB em Estocolmo, Suécia.
+                        </p>
+                        <div class="linguagens" style="width: 40%;">
+                            <i class="fa-brands fa-js fa-2x"></i>
+                            <i class="fa-brands fa-react fa-2x"></i>
+                            <i class="fa-brands fa-html5 fa-2x"></i>
+                            <i class="fa-brands fa-css3 fa-2x"></i>
+                        </div>
 
-        </header>
+                        <a href="https://www.spotify.com" target="_blank"><button
+                                class="btn acessar">Acessar</button></a>
+                    </div>
 
-        <!-- Conteudo Principal -->
-        <main>
-            <!-- Inicio-->
-            <section id="inicio">
-                <div class="descricao">
-                    <p>Olá, eu sou</p>
-                    <h1>Tony Stark</h1>
-                    <p>Sou graduado e mestrado em Física e Engenharia Elétrica pelo MIT. 
-                        Nas horas vagas sou programador FullStack JavaScript, Python, Java e PHP.
-                        Entre em contato se não quer desperdiçar mais tempo buscando pessoas desqualificadas.</p>
+                    <div class="img-projeto">
+                        <img src="assets/imgs/projeto3.png" alt="Disney+">
+                    </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="imagem">
-                    <img src="assets/imgs/Tony-Stark.png" alt="Tony Stark">
-                </div>
-            </section>
+        <!-- Contato -->
+        <section class="contato" id="contato">
+            <h2>Entre em contato</h2>
+            <p>Minha caixa de entrada está sempre aberta, não importa se estou procurando novas oportunidades ou não, se
+                você tiver alguma dúvida, quiser conversar ou simplesmente dizer olá, farei o possível para responder o
+                mais rápido possível.</p>
 
-            <!-- Habilidades -->
-            <section id="habilidades">
+            <a href="mailto:tonystark@outlook.com">
+                <!-- Um botão por si só ele não pode fazer muita coisa, mas associado
+                a tag <form> ele possui mais atributos e mecanismos interessantes -->
+                <button class="btn contatar" type="button">Diga Olá</button>
+            </a>
 
-            </section>
+            <div class="social">
+                <a href="https://facebook.com/tonystark"> <i class="fa-brands fa-facebook fa-3x"></i></a>
 
-            <!-- Experiência-->
-            <section id="experiencia">
+                <a href="https://twitter.com/tonystark"><i class="fa-brands fa-twitter fa-3x"></i></a>
 
-            </section>
+                <a href="https://instagram.com/tonystark"><i class="fa-brands fa-instagram fa-3x"></i></a>
 
-            <!-- Projetos-->
-            <section id="projetos">
+                <a href="https://linkedin.com/tonystark"><i class="fa-brands fa-linkedin fa-3x"></i></a>
 
-            </section>
+                <a href="https://github.com/tonystark"><i class="fa-brands fa-github fa-3x"></i></a>
+            </div>
 
-            <!-- Contato-->
-            <section id="contato">
 
-            </section>
-        </main>
+        </section>
 
-        <!-- Rodapé da Página -->
-        <footer>
+    </main>
+    <!-- Rodapé da Página -->
+    <footer>
+        <!-- a tag footer indica o rodapé da página -->
+        Indústrias Stark. Perfil. 2022 (c).
+    </footer>
 
-        </footer>
-
-    </body>
+</body>
 
 </html>

@@ -1,0 +1,214 @@
+html{
+    overflow-x: hidden;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', coursive;   
+    margin: 0%; 
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    display: block;    
+    position: fixed;
+}
+
+.navbar{
+    display: block;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #400000;
+    width: 100%;
+    text-decoration: none;
+}
+
+.navbar .logo{
+    float: left;
+    font-size: 32px;    
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.navbar .menu{
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .menu a{
+    display: inline-block;
+    padding: 20px 20px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar .menu a:hover{
+    background-color: #7F0000;
+    color: yellow;
+}
+
+section{
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: 4rem;
+}
+
+#inicio{
+    margin-top: 8%;
+    margin-bottom: 0;
+}
+
+#inicio p{
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 8rem;
+}
+
+#inicio h1{
+    background-color: #400000;
+    font-size: 72px;
+    margin: 10px 0 0 2px;
+}
+
+#inicio .descricao{
+    width: 100%;
+}
+
+#inicio .descricao h1{
+    font-size: 72px;
+    width: 5em;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 2s steps(60, end);
+}
+
+h1:ntd-child(2){
+    animation: type2 6s steps(60, end);
+}
+
+#inicio .imagem{
+    width: 40%;
+}
+
+#inicio .imagem img{
+    height: 550px;
+    width: 450px;
+    border-radius: 50% 50% 0% 0%;
+    background-color: #400000;
+}
+
+#inicio .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@keyframes type{
+    from{
+        width: 0;
+    }    
+}
+
+@keyframe type2{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 0%;        
+    }
+    100%{
+        width: 100%
+    }
+}
+
+section h2{
+    font-size: 48px;
+    letter-spacing: 0.4rem;
+}
+
+section p{
+    font-size: 24px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+#habilidades{
+    background-color: #400000;
+    padding-bottom: 90px;
+    width: 100%;
+}
+
+#habilidades .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 60px;
+    text-align: center;
+    margin-top: 5rem;
+    padding-right: 6rem;
+}
+
+#habilidades .wrapper i:hover{
+    color: #e50000;
+    transform: scale(1.1);
+}
+
+#experiencia .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#experiencia .card{
+    height: 25rem;
+    width: 20rem;
+    background-color: #808080;
+    color: #000;
+    box-shadow: 0 4px 8px 0 #808080;
+    transition: 0.3s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+#experiencia .card img{
+    height: 50%;
+    width: 100%;
+}
+
+#card_amazon:hover #img_amazon{
+    content: url(assets/imgs/amazon.jpg); /** Imagem definida no caminho especificado */
+}
+
+#card_microsoft:hover #img_microsoft{
+    content: url(assets/imgs/microsoft.jpeg);
+    
+}
+
+#card_stark:hover #img_stark{
+    content: url(assets/imgs/stark-industries.jpg);
+}
+
+
+#experiencia .card_conteudo{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    padding: 2px 4px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+#experiencia .card:hover{
+    box-shadow: 0 8px 16px 0 #400000;
+    background-color: #400000;
+    border-color: #e50000;
+    color: #ffffff;
+}
+
