@@ -8,6 +8,7 @@
 
 #### Informações adicionais
 - O vídeo do primeiro dia da oficina pode ser acessado clicando [aqui](https://drive.google.com/file/d/1XcnoRZza4ZNIPaHY3UceD0K_fxeIlmE1/view?usp=sharing).
+- O vídeo do segundo dia pode ser acessado [aqui](https://drive.google.com/file/d/10jXQopqZ_9rx100kwZBhqitXKcjx4a0B/view?usp=sharing).
 
 
 #### Links para referência
