@@ -1,7 +1,5 @@
 import Project from '@/components/Project';
 import { projects } from '@/constants/projects';
-import { stacks } from '@/constants/stacks';
-import { type IconType } from 'react-icons';
 
 function Projects() {
   return (

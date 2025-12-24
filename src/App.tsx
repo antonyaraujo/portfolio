@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import { Hero } from './pages/Hero';
 import Layout from './components/Layout';
@@ -8,8 +7,6 @@ import Stack from './pages/Stack';
 import Academic from './pages/Academic';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Layout>
       <div className="bg-background min-h-screen text-white flex flex-col gap-4">

@@ -3,7 +3,7 @@ interface ExperienceCardProps {
   description: string;
   date: string;
   image: string;
-  link: string;
+  link?: string;
 }
 
 function ExperienceCard({

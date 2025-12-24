@@ -10,9 +10,8 @@
     "lib": ["ES2023"],
     
     "types": ["node"],
-    
-    
-
+    "esModuleInterop": true, 
+            
     /* Bundler mode */
     
     "allowImportingTsExtensions": true,
@@ -26,7 +25,11 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["vite.config.ts"]
 }

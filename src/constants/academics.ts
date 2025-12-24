@@ -1,6 +1,3 @@
-import { IconType } from 'react-icons';
-import { DiReact } from 'react-icons/di';
-
 export interface AcademicsProps {
   position: string;
   description: string;

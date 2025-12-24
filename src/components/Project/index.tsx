@@ -1,16 +1,13 @@
 import { ArrowUpRight } from 'lucide-react'; // Ou use o ícone de sua preferência
-import { useNavigate } from 'react-router';
 
 interface ProjectProps {
   image: string;
   title: string;
   content?: string;
-  link: string;
+  link?: string;
 }
 
 function Project({ image, title, link }: ProjectProps) {
-  const navigate = useNavigate();
-
   return (
     <div
       className="w-[490px] overflow-hidden rounded-3xl bg-[#1A1A1A] transition-transform hover:scale-[1.02] cursor-pointer"
