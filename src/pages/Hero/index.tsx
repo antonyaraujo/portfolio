@@ -16,7 +16,7 @@ export function Hero() {
       <div className="container flex max-w-[800px] flex-col items-center gap-4">
         {/* Badge de status ou saudação */}
 
-        <img src="src\assets\eu_emoji.png" className="h-[254px] w-[254px]" />
+        <img src="public\eu_emoji.png" className="h-[254px] w-[254px]" />
 
         {/* Título Principal */}
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-6xl lg:text-6xl">
@@ -60,7 +60,7 @@ export function Hero() {
           </Button>
           <Button variant="pill_outline" size="xl" asChild>
             <a
-              href="src\assets\Curriculo_Antony_FS.pdf"
+              href="public\Curriculo_Antony_FS.pdf"
               target="_blank"
               rel="noreferrer"
             >
