@@ -62,11 +62,6 @@ export function Navbar() {
 
         {/* Action Buttons */}
         <div className="flex items-center gap-4">
-          <Button variant="ghost" className="hidden sm:inline-flex">
-            Resume
-          </Button>
-          <Button>Let's Talk</Button>
-
           {/* Mobile Menu Toggle */}
           <Button variant="outline" size="icon" className="md:hidden">
             <Menu className="h-5 w-5" />
