@@ -8,7 +8,7 @@ function Projects() {
         <h1 className="text-4xl font-black tracking-tighter bg-gradient-to-b from-[#EF744E] to-[#CC5333] bg-clip-text text-transparent uppercase">
           Projects
         </h1>
-        <div className="grid grid-cols-2 gap-9 mt-7">
+        <div className="grid grid-cols-1 gap-9 mt-7 md:grid-cols-2">
           {projects.map((project) => (
             <Project
               image={project.image}

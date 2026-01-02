@@ -16,6 +16,7 @@ function Academic() {
               description={experience.description}
               image={experience.image}
               link={experience.link}
+              addDescriptionMargin
             />
           ))}
         </div>
