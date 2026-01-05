@@ -1,6 +1,11 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+body {
+margin: 0;
+padding: 0;
+}
+
+.main-wrapper {
+  max-width: 1280px; /* Example fixed or max width */
+  margin: 0 auto; /* Centers the container on the page */
   padding: 2rem;
   text-align: center;
 }

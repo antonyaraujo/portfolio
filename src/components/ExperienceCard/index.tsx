@@ -16,7 +16,7 @@ function ExperienceCard({
   addDescriptionMargin = false,
 }: ExperienceCardProps) {
   return (
-    <div className="w-full max-w-4xl py-6">
+    <div className="w-full py-6">
       {/* Cabeçalho: Logo, Título e Data */}
       <div className="flex flex-col items-center justify-start  mb-4 md:flex-row md:justify-between">
         <div className="flex items-center gap-3 w-full md:w-max">
