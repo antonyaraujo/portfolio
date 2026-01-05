@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 // Interfaces para tipagem dos dados
 interface SocialLink {
@@ -8,22 +8,8 @@ interface SocialLink {
   icon: React.ComponentType<{ className?: string }>;
 }
 
-interface NavLink {
-  name: string;
-  href: string;
-}
-
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
-
-  // Dados de navegação (edite conforme suas rotas)
-  const navLinks: NavLink[] = [
-    { name: 'Sobre', href: '#start' },
-    { name: 'Stacks', href: '#stacks' },
-    { name: 'Projetos', href: '#projects' },
-    { name: 'Profissional', href: '#experience' },
-    { name: 'Acadêmico', href: '#academic' },
-  ];
 
   // Dados de redes sociais (substitua pelos seus links reais)
   const socialLinks: SocialLink[] = [
