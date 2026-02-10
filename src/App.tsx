@@ -1,23 +1,21 @@
-import './App.css';
-import { Hero } from './pages/Hero';
-import Layout from './components/Layout';
-import Experience from './pages/Experience';
-import Projects from './pages/Projects';
-import Stack from './pages/Stack';
-import Academic from './pages/Academic';
+import { Header } from './components/Header';
+import { Hero } from './components/Hero';
+import { Experience } from './components/Experience';
+import { Projects } from './components/Projects';
+import { Skills } from './components/Skills';
+import { Contact } from './components/Contact';
 
-function App() {
+export default function App() {
   return (
-    <Layout>
-      <div className="bg-background min-h-screen text-white flex flex-col gap-4">
+    <div className="min-h-screen bg-gray-900 text-white font-mono">
+      <Header />
+      <main>
         <Hero />
-        <Stack />
-        <Projects />
         <Experience />
-        <Academic />
-      </div>
-    </Layout>
+        <Projects />
+        <Skills />
+        <Contact />
+      </main>
+    </div>
   );
 }
-
-export default App;

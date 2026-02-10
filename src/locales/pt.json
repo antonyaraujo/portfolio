@@ -1,0 +1,59 @@
+{
+    "hero": {
+        "title": "Olá, eu sou o Antony",
+        "subtitle": "Eu construo coisas para a web.",
+        "button": "Entre em contato"
+    },
+    "experiences": {
+        "title": "Experiência",
+        "items": [
+            {
+                "position": "Desenvolvedor Front-end Pleno",
+                "date": "Maio 2025 - Presente",
+                "description": "Trabalho no desenvolvimento de um ACS (Auto-Configuration System), uma solução responsável pelo gerenciamento de dispositivos de rede para provedores de internet."
+            },
+            {
+                "position": "Desenvolvedor Front-end Júnior",
+                "date": "Mar 2022 - Dez 2024",
+                "description": "Trabalhei no desenvolvimento de múltiplas plataformas digitais de alto impacto, trabalhando com stacks modernas para criar interfaces responsivas e componentes reutilizáveis."
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projetos",
+        "items": [
+            {
+                "title": "Plataforma Ecológico-Econômica de PE",
+                "image": "/projects/cabure.png",
+                "link": "https://plataformaecope.cprh.pe.gov.br/"
+            },
+            {
+                "title": "Programa Prioritário de Bioeconomia - PPBio",
+                "image": "/projects/ppbio.png",
+                "link": "https://bioeconomia.org.br/noticias/"
+            },
+            {
+                "title": "WillFall.NET - Simulador de Redes (Java)",
+                "image": "https://raw.githubusercontent.com/antonyaraujo/WillFall.NET/refs/heads/master/img06.png",
+                "link": "https://github.com/antonyaraujo/WillFall.NET"
+            }
+        ]
+    },
+    "stacks": {
+        "title": "Habilidades",
+        "items": [
+            { "stack": "ReactJS" },
+            { "stack": "NextJS" },
+            { "stack": "TypeScript" },
+            { "stack": "JavaScript" },
+            { "stack": "HTML5" },
+            { "stack": "CSS3" },
+            { "stack": "Tailwind CSS" }
+        ]
+    },
+    "contact": {
+        "title": "Entre em contato",
+        "description": "Estou atualmente procurando por novas oportunidades, minha caixa de entrada está sempre aberta. Se você tem uma pergunta ou apenas quer dizer oi, eu vou tentar o meu melhor para responder a você!",
+        "button": "Diga Olá"
+    }
+}

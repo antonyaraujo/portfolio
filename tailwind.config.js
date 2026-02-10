@@ -12,7 +12,16 @@ export default {
         accent: '#ff00c1',
       },
       fontFamily: {
-        sans: ['"Fira Code"', 'monospace'],
+        sans: ['"VT323"', 'monospace'],
+      },
+      keyframes: {
+        flicker: {
+          '0%, 100%': { opacity: 1 },
+          '50%': { opacity: 0.5 },
+        },
+      },
+      animation: {
+        flicker: 'flicker 1.5s infinite',
       },
     },
   },

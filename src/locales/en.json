@@ -1,0 +1,59 @@
+{
+    "hero": {
+        "title": "Hi, I'm Antony",
+        "subtitle": "I build things for the web.",
+        "button": "Get in touch"
+    },
+    "experiences": {
+        "title": "Experience",
+        "items": [
+            {
+                "position": "Mid-level Front-end Developer",
+                "date": "May 2025 - Present",
+                "description": "I work on the development of an ACS (Auto-Configuration System), a solution responsible for managing network devices for internet providers."
+            },
+            {
+                "position": "Junior Front-end Developer",
+                "date": "Mar 2022 - Dec 2024",
+                "description": "I worked on the development of multiple high-impact digital platforms, working with modern stacks to create responsive interfaces and reusable components."
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "items": [
+            {
+                "title": "Ecological-Economic Platform of PE",
+                "image": "/projects/cabure.png",
+                "link": "https://plataformaecope.cprh.pe.gov.br/"
+            },
+            {
+                "title": "Priority Program for Bioeconomy - PPBio",
+                "image": "/projects/ppbio.png",
+                "link": "https://bioeconomia.org.br/noticias/"
+            },
+            {
+                "title": "WillFall.NET - Network Simulator (Java)",
+                "image": "https://raw.githubusercontent.com/antonyaraujo/WillFall.NET/refs/heads/master/img06.png",
+                "link": "https://github.com/antonyaraujo/WillFall.NET"
+            }
+        ]
+    },
+    "stacks": {
+        "title": "Skills",
+        "items": [
+            { "stack": "ReactJS" },
+            { "stack": "NextJS" },
+            { "stack": "TypeScript" },
+            { "stack": "JavaScript" },
+            { "stack": "HTML5" },
+            { "stack": "CSS3" },
+            { "stack": "Tailwind CSS" }
+        ]
+    },
+    "contact": {
+        "title": "Get in touch",
+        "description": "I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+        "button": "Say Hello"
+    }
+}
