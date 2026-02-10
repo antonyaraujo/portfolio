@@ -1,22 +1,35 @@
 {
     "hero": {
-        "title": "Hi, I'm Antony",
-        "subtitle": "I build things for the web.",
+        "greeting": "Hi, my name is",
+        "title": "Antony Araújo.",
+        "subtitle": "I develop solutions for the web.",
+        "description": "As a Software Engineer, I create end-to-end digital solutions. My expertise ranges from developing user interfaces with React and Next.js to building robust APIs and backend systems with Node.js, Java, and PHP.",
         "button": "Get in touch",
-        "description": "I create digital solutions for the web. As a Front-End developer, my focus is on building accessible, responsive, and visually appealing user interfaces, using industry best practices."
+        "available": "Available for projects"
+    },
+    "navbar":{
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact"
     },
     "experiences": {
         "title": "Experience",
         "items": [
             {
-                "position": "Mid-level Front-end Developer",
+                "position": "Software Engineer (Full Stack)",
                 "date": "May 2025 - Present",
-                "description": "I work on the development of an ACS (Auto-Configuration System), a solution responsible for managing network devices for internet providers."
+                "description": "I develop and maintain an Auto-Configuration System (ACS), creating both the backend APIs for device management and the frontend interfaces with React to optimize the user experience."
             },
             {
-                "position": "Junior Front-end Developer",
+                "position": "Software Engineer",
                 "date": "Mar 2022 - Dec 2024",
-                "description": "I worked on the development of multiple high-impact digital platforms, working with modern stacks to create responsive interfaces and reusable components."
+                "description": "I was involved in the development of complete solutions for government projects and internal products, creating APIs for data processing and building interfaces with interactive maps and dashboards."
+            },
+            {
+                "position": "Security IT Intern",
+                "date": "Sep 2021 - Feb 2022",
+                "description": "As an IT Security Intern, I contributed to securing critical corporate systems by focusing on network infrastructure and access control. I managed user permissions through LDAP directory services and assisted in FortiNet firewall administration."
             }
         ]
     },
@@ -44,12 +57,14 @@
         "title": "Skills",
         "items": [
             { "stack": "ReactJS" },
-            { "stack": "NextJS" },
+            { "stack": "Next.js" },
             { "stack": "TypeScript" },
-            { "stack": "JavaScript" },
-            { "stack": "HTML5" },
-            { "stack": "CSS3" },
-            { "stack": "Tailwind CSS" }
+            { "stack": "Node.js" },
+            { "stack": "PHP (Laravel)" },
+            { "stack": "Java" },
+            { "stack": "SQL (MySQL)" },
+            { "stack": "Tailwind CSS" },
+            { "stack": "Git & GitHub" }
         ]
     },
     "contact": {

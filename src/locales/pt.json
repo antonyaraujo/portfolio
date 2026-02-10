@@ -1,24 +1,30 @@
-
 {
     "hero": {
         "greeting": "Olá, meu nome é",
         "title": "Antony Araújo.",
-        "subtitle": "Eu construo coisas para a web",
-        "description": "Eu crio soluções digitais para a web. Como desenvolvedor Front-End, meu foco é construir interfaces de usuário acessíveis, responsivas e visualmente atraentes, utilizando as melhores práticas do mercado.",
-        "button": "Vamos Conversar"
+        "subtitle": "Eu desenvolvo soluções para a web.",
+        "description": "Como Engenheiro de Software, eu crio soluções digitais de ponta a ponta. Minha expertise vai do desenvolvimento de interfaces com React e Next.js até a construção de APIs robustas e sistemas de backend com Node.js, Java e PHP.",
+        "button": "Vamos Conversar",
+        "available": "Disponível para projetos"
+    },
+    "navbar":{
+        "experience": "Experiência",
+        "projects": "Projetos",
+        "skills": "Habilidades",
+        "contact": "Contato"
     },
     "experiences": {
         "title": "Experiência Profissional",
         "items": [
             {
-                "position": "Desenvolvedor Front-end Pleno",
+                "position": "Engenheiro de Software (Full Stack)",
                 "date": "Maio 2025 - Presente",
-                "description": "Desenvolvo e mantenho um sistema de autoconfiguração (ACS) para gerenciamento de dispositivos de rede, utilizando React, TypeScript e Tailwind CSS. Crio interfaces responsivas e componentes reutilizáveis para otimizar a experiência do usuário e a eficiência dos provedores de internet."
+                "description": "Desenvolvo e mantenho um sistema de autoconfiguração (ACS), criando tanto as APIs de backend para gerenciamento de dispositivos quanto as interfaces de frontend com React, para otimizar a experiência do usuário."
             },
             {
-                "position": "Desenvolvedor Front-end Júnior",
+                "position": "Engenheiro de Software",
                 "date": "Mar 2022 - Dez 2024",
-                "description": "Participei ativamente no desenvolvimento de múltiplas plataformas digitais, incluindo sistemas de e-commerce e portais de conteúdo. Colaborei em equipes ágeis para entregar interfaces de alta performance, focando na semântica do HTML, acessibilidade e design responsivo."
+                "description": "Atuei no desenvolvimento de soluções completas para projetos governamentais e produtos internos, criando APIs para processamento de dados e construindo interfaces com mapas interativos e dashboards."
             }
         ]
     },
@@ -54,11 +60,11 @@
             { "stack": "ReactJS" },
             { "stack": "Next.js" },
             { "stack": "TypeScript" },
-            { "stack": "JavaScript (ES6+)" },
-            { "stack": "HTML5" },
-            { "stack": "CSS3" },
+            { "stack": "Node.js" },
+            { "stack": "PHP (Laravel)" },
+            { "stack": "Java" },
+            { "stack": "SQL (MySQL)" },
             { "stack": "Tailwind CSS" },
-            { "stack": "Framer Motion" },
             { "stack": "Git & GitHub" }
         ]
     },

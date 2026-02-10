@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 export function Header() {
     const { i18n } = useTranslation();
+    const { t } = useTranslation();
 
     const handleChangeLang = (lang: string) => {
         i18n.changeLanguage(lang);
@@ -22,10 +23,10 @@ export function Header() {
                 </motion.div>
                 <div className="flex items-center space-x-6">
                     <nav className="hidden md:flex items-center space-x-6 text-sm font-mono text-text/90">
-                        <motion.a whileHover={{ color: '#00ff95' }} href="#experience" className="transition-colors duration-300"><span className="text-primary">01.</span> Experiência</motion.a>
-                        <motion.a whileHover={{ color: '#00ff95' }} href="#projects" className="transition-colors duration-300"><span className="text-primary">02.</span> Projetos</motion.a>
-                        <motion.a whileHover={{ color: '#00ff95' }} href="#skills" className="transition-colors duration-300"><span className="text-primary">03.</span> Habilidades</motion.a>
-                        <motion.a whileHover={{ color: '#00ff95' }} href="#contact" className="transition-colors duration-300"><span className="text-primary">04.</span> Contato</motion.a>
+                        <motion.a whileHover={{ color: '#00ff95' }} href="#experience" className="transition-colors duration-300"><span className="text-primary">01.</span> {t('navbar.experience')}</motion.a>
+                        <motion.a whileHover={{ color: '#00ff95' }} href="#projects" className="transition-colors duration-300"><span className="text-primary">02.</span> {t('navbar.projects')}</motion.a>
+                        <motion.a whileHover={{ color: '#00ff95' }} href="#skills" className="transition-colors duration-300"><span className="text-primary">03.</span> {t('navbar.skills')}</motion.a>
+                        <motion.a whileHover={{ color: '#00ff95' }} href="#contact" className="transition-colors duration-300"><span className="text-primary">04.</span> {t('navbar.contact')}</motion.a>
                     </nav>
                     <div className="flex items-center space-x-4">
                         <motion.a 

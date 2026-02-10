@@ -23,7 +23,15 @@ export function Hero() {
                 variants={containerVariants}
                 initial="hidden"
                 animate="visible"
-                className="max-w-3xl">                
+                className="max-w-3xl">
+
+                <motion.div 
+                    variants={itemVariants} 
+                    className="mb-4">
+                    <span className="inline-block bg-primary/10 text-primary text-sm font-mono font-bold px-3 py-1 rounded-full">
+                        {t('hero.available')}
+                    </span>
+                </motion.div>
                 
                 <motion.h1 
                     variants={itemVariants} 
