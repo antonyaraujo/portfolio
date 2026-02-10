@@ -57,15 +57,21 @@
     "stacks": {
         "title": "Tecnologias",
         "items": [
-            { "stack": "ReactJS" },
+            { "stack": "React.js" },
             { "stack": "Next.js" },
             { "stack": "TypeScript" },
             { "stack": "Node.js" },
             { "stack": "PHP (Laravel)" },
             { "stack": "Java" },
             { "stack": "SQL (MySQL)" },
+            { "stack": "REST APIs" },
+            { "stack": "HTML5" },
+            { "stack": "CSS3" },
             { "stack": "Tailwind CSS" },
-            { "stack": "Git & GitHub" }
+            { "stack": "Git" },
+            { "stack": "Docker" },
+            { "stack": "Jest" },
+            { "stack": "Cypress" }
         ]
     },
     "contact": {
