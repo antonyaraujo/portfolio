@@ -1,15 +1,15 @@
 import { useTranslation } from "react-i18next";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 export function Contact() {
     const { t } = useTranslation();
 
-    const sectionVariants = {
+    const sectionVariants: Variants = {
         hidden: { opacity: 0, y: 50 },
         visible: { 
             opacity: 1, 
             y: 0,
-            transition: { duration: 0.7, ease: "easeOut" }
+            transition: { duration: 0.7, ease: "easeOut" as const }
         },
     };
 

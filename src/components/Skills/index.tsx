@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 export function Skills() {
     const { t } = useTranslation();
 
-    const sectionVariants = {
+    const sectionVariants: Variants = {
         hidden: { opacity: 0 },
         visible: { 
             opacity: 1,
@@ -12,7 +12,7 @@ export function Skills() {
         },
     };
 
-    const itemVariants = {
+    const itemVariants: Variants = {
         hidden: { y: 20, opacity: 0 },
         visible: { y: 0, opacity: 1, transition: { duration: 0.5 } },
     };
