@@ -4,15 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        brand: {
-          light: '#3fbaeb',
-          DEFAULT: '#0fa9e6',
-          dark: '#0c87b8',
-        },
-        accent: '#f59e0b',
+        primary: '#00ff95',
+        secondary: '#ff00c1',
+        background: '#0d0221',
+        'light-background': '#1a0a3d',
+        text: '#00ff95',
+        accent: '#ff00c1',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['"Fira Code"', 'monospace'],
       },
     },
   },

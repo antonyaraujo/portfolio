@@ -1,11 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 body {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #0d0221;
+  color: #00ff95;
+  font-family: 'Fira Code', monospace;
 }
 
 .main-wrapper {
-  max-width: 1280px; /* Example fixed or max width */
-  margin: 0 auto; /* Centers the container on the page */
+  max-width: 1280px;
+  margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
@@ -16,11 +22,13 @@ padding: 0;
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ff00c1aa);
 }
+
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #00ff95aa);
 }
 
 @keyframes logo-spin {
@@ -40,8 +48,23 @@ padding: 0;
 
 .card {
   padding: 2em;
+  border: 1px solid #00ff95;
+  border-radius: 10px;
+  background-color: #0d0221;
+  box-shadow: 0 0 15px #00ff95aa;
 }
 
 .read-the-docs {
   color: #888;
 }
+
+a {
+  color: #ff00c1;
+  text-decoration: none;
+  transition: color 300ms;
+}
+
+a:hover {
+  color: #00ff95;
+}
+
