@@ -2,7 +2,8 @@
     "hero": {
         "title": "Hi, I'm Antony",
         "subtitle": "I build things for the web.",
-        "button": "Get in touch"
+        "button": "Get in touch",
+        "description": "I create digital solutions for the web. As a Front-End developer, my focus is on building accessible, responsive, and visually appealing user interfaces, using industry best practices."
     },
     "experiences": {
         "title": "Experience",

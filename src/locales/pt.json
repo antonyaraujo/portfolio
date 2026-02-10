@@ -1,59 +1,70 @@
+
 {
     "hero": {
-        "title": "Olá, eu sou o Antony",
-        "subtitle": "Eu construo coisas para a web.",
-        "button": "Entre em contato"
+        "greeting": "Olá, meu nome é",
+        "title": "Antony Araújo.",
+        "subtitle": "Eu construo coisas para a web",
+        "description": "Eu crio soluções digitais para a web. Como desenvolvedor Front-End, meu foco é construir interfaces de usuário acessíveis, responsivas e visualmente atraentes, utilizando as melhores práticas do mercado.",
+        "button": "Vamos Conversar"
     },
     "experiences": {
-        "title": "Experiência",
+        "title": "Experiência Profissional",
         "items": [
             {
                 "position": "Desenvolvedor Front-end Pleno",
                 "date": "Maio 2025 - Presente",
-                "description": "Trabalho no desenvolvimento de um ACS (Auto-Configuration System), uma solução responsável pelo gerenciamento de dispositivos de rede para provedores de internet."
+                "description": "Desenvolvo e mantenho um sistema de autoconfiguração (ACS) para gerenciamento de dispositivos de rede, utilizando React, TypeScript e Tailwind CSS. Crio interfaces responsivas e componentes reutilizáveis para otimizar a experiência do usuário e a eficiência dos provedores de internet."
             },
             {
                 "position": "Desenvolvedor Front-end Júnior",
                 "date": "Mar 2022 - Dez 2024",
-                "description": "Trabalhei no desenvolvimento de múltiplas plataformas digitais de alto impacto, trabalhando com stacks modernas para criar interfaces responsivas e componentes reutilizáveis."
+                "description": "Participei ativamente no desenvolvimento de múltiplas plataformas digitais, incluindo sistemas de e-commerce e portais de conteúdo. Colaborei em equipes ágeis para entregar interfaces de alta performance, focando na semântica do HTML, acessibilidade e design responsivo."
             }
         ]
     },
     "projects": {
-        "title": "Projetos",
+        "title": "Projetos Selecionados",
         "items": [
             {
                 "title": "Plataforma Ecológico-Econômica de PE",
+                "description": "Interface web para a plataforma de Zoneamento Ecológico-Econômico de Pernambuco, com mapas interativos e dados geoespaciais.",
                 "image": "/projects/cabure.png",
-                "link": "https://plataformaecope.cprh.pe.gov.br/"
+                "live": "https://plataformaecope.cprh.pe.gov.br/",
+                "repo": ""
             },
             {
-                "title": "Programa Prioritário de Bioeconomia - PPBio",
+                "title": "Programa Prioritário de Bioeconomia",
+                "description": "Portal informativo para o PPBio, apresentando notícias, publicações e dados sobre a bioeconomia na Amazônia.",
                 "image": "/projects/ppbio.png",
-                "link": "https://bioeconomia.org.br/noticias/"
+                "live": "https://bioeconomia.org.br/noticias/",
+                "repo": ""
             },
             {
-                "title": "WillFall.NET - Simulador de Redes (Java)",
+                "title": "WillFall.NET - Simulador de Redes",
+                "description": "Ferramenta de simulação de topologias de rede desenvolvida em Java, permitindo a análise de conectividade e falhas.",
                 "image": "https://raw.githubusercontent.com/antonyaraujo/WillFall.NET/refs/heads/master/img06.png",
-                "link": "https://github.com/antonyaraujo/WillFall.NET"
+                "live": "",
+                "repo": "https://github.com/antonyaraujo/WillFall.NET"
             }
         ]
     },
     "stacks": {
-        "title": "Habilidades",
+        "title": "Tecnologias",
         "items": [
             { "stack": "ReactJS" },
-            { "stack": "NextJS" },
+            { "stack": "Next.js" },
             { "stack": "TypeScript" },
-            { "stack": "JavaScript" },
+            { "stack": "JavaScript (ES6+)" },
             { "stack": "HTML5" },
             { "stack": "CSS3" },
-            { "stack": "Tailwind CSS" }
+            { "stack": "Tailwind CSS" },
+            { "stack": "Framer Motion" },
+            { "stack": "Git & GitHub" }
         ]
     },
     "contact": {
-        "title": "Entre em contato",
-        "description": "Estou atualmente procurando por novas oportunidades, minha caixa de entrada está sempre aberta. Se você tem uma pergunta ou apenas quer dizer oi, eu vou tentar o meu melhor para responder a você!",
-        "button": "Diga Olá"
+        "title": "Vamos nos Conectar",
+        "description": "Estou aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato se tiver alguma pergunta ou proposta. Vamos criar algo incrível juntos!",
+        "button": "Enviar Mensagem"
     }
 }
