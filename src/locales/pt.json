@@ -25,11 +25,17 @@
                 "position": "Engenheiro de Software",
                 "date": "Mar 2022 - Dez 2024",
                 "description": "Atuei no desenvolvimento de soluções completas para projetos governamentais e produtos internos, criando APIs para processamento de dados e construindo interfaces com mapas interativos e dashboards."
+            },
+            {
+                "position": "Estágio em Segurança de TI",
+                "date": "Set 2021 - Fev 2022",
+                "description": "As an IT Security Intern, I contributed to securing critical corporate systems by focusing on network infrastructure and access control. I managed user permissions through LDAP directory services and assisted in FortiNet firewall administration."
             }
         ]
     },
     "projects": {
         "title": "Projetos Selecionados",
+        "tag": "Projeto em Destaque",
         "items": [
             {
                 "title": "Plataforma Ecológico-Econômica de PE",
@@ -51,6 +57,13 @@
                 "image": "https://raw.githubusercontent.com/antonyaraujo/WillFall.NET/refs/heads/master/img06.png",
                 "live": "",
                 "repo": "https://github.com/antonyaraujo/WillFall.NET"
+            },
+            {
+                "title": "BusOn",
+                "description": "Uma plataforma completa que permite a compra e venda de passagens e gerenciamento de negócio para companhias rodoviárias.",
+                "image": "/projects/buson-image.png",
+                "live": "https://docs.google.com/presentation/d/1twAvl5o1nvsx7pcTRBta2idUnt2apYAk57PMobHC8B8/edit?usp=sharing",
+                "repo": ""
             }
         ]
     },

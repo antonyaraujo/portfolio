@@ -35,21 +35,31 @@
     },
     "projects": {
         "title": "Projects",
+        "tag": "Featured Project",
         "items": [
             {
                 "title": "Ecological-Economic Platform of PE",
                 "image": "/projects/cabure.png",
-                "link": "https://plataformaecope.cprh.pe.gov.br/"
+                "live": "https://plataformaecope.cprh.pe.gov.br/",
+                "description": "Web interface for the Ecological-Economic Zoning platform of Pernambuco, with interactive maps and geospatial data."
             },
             {
                 "title": "Priority Program for Bioeconomy - PPBio",
                 "image": "/projects/ppbio.png",
-                "link": "https://bioeconomia.org.br/noticias/"
+                "live": "https://bioeconomia.org.br/noticias/",
+                "description": "Informative portal for PPBio, presenting news, publications and data on the bioeconomy in the Amazon."
             },
             {
                 "title": "WillFall.NET - Network Simulator (Java)",
                 "image": "https://raw.githubusercontent.com/antonyaraujo/WillFall.NET/refs/heads/master/img06.png",
-                "link": "https://github.com/antonyaraujo/WillFall.NET"
+                "repo": "https://github.com/antonyaraujo/WillFall.NET",
+                "description": "A network topology simulation tool developed in Java, enabling connectivity and fault analysis."
+            },
+            {
+                "title": "BusOn",
+                "description": "A complete platform that enables the purchase and sale of tickets and business management for bus companies.",
+                "image": "/projects/buson-image.png",
+                "live": "https://docs.google.com/presentation/d/1twAvl5o1nvsx7pcTRBta2idUnt2apYAk57PMobHC8B8/edit?usp=sharing"                
             }
         ]
     },
