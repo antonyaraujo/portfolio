@@ -42,7 +42,7 @@ export function Header() {
                 <div className="container mx-auto px-6 md:px-10 py-4 flex justify-between items-center">
                     <motion.p
                         whileHover={{ scale: 1.1, textShadow: "0 0 10px #00ff95" }}
-                        className="text-text/60 text-2xl font-mono font-bold text-primary animate-flicker cursor-pointer font-mono">
+                        className="text-2xl font-bold leading-relaxed font-retro text-primary animate-flicker cursor-pointer">
                         antony.dev
                     </motion.p>
 
