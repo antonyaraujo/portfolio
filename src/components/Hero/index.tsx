@@ -83,7 +83,7 @@ export function Hero() {
                     variants={imageContainerVariants}
                     initial="hidden"
                     animate="visible"
-                    className="relative w-64 h-64 md:w-80 md:h-80 flex-shrink-0 mb-8 md:mb-0"
+                    className="relative w-64 h-64 md:w-80 md:h-80 flex-shrink-0 mb-8 md:mb-0 mt-20 md:mt-0"
                 >
                     {/* Background Circle with Glow and Pulse */}
                     <motion.div
