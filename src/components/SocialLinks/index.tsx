@@ -1,6 +1,7 @@
 
 import { motion } from "framer-motion";
 import { Github, Linkedin } from "lucide-react";
+import { SiBluesky } from "react-icons/si";
 
 const socialLinks = [
     { 
@@ -12,6 +13,11 @@ const socialLinks = [
         name: "LinkedIn",
         icon: <Linkedin size={24} />,
         url: "https://linkedin.com/in/antonyoaraujo"
+    },
+    {
+        name: "Bluesky",
+        icon: <SiBluesky size={24} />,
+        url: "https://bsky.app/profile/antonyaraujo.is-a.dev"
     }
 ];
 
